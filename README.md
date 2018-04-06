@@ -4,7 +4,6 @@
 [![npm](https://img.shields.io/npm/dt/express.svg)](github-https://www.npmjs.com/package/github-languages-client-client)
 [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/github-languages-client)
 
-
 A `NodeJS` client to get languages GitHub knows about for [`Advanced Search`](https://github.com/search/advanced), for example.
 
 ![advanced-search](https://imgur.com/TYoc7Qy.png)
@@ -13,7 +12,7 @@ A `NodeJS` client to get languages GitHub knows about for [`Advanced Search`](ht
 
 `GitHub` maintains [a `linguist` repository](https://github.com/github/linguist) that contains [a `languages.yml` file](https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml) that seems to represent the set of languages that `GitHub` knows about.
 
-I have [a script](~/scripts/getLanguages.js) that makes a request to [the `raw.githubusercontent` API for this file](https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml), converts the `YAML` to `JSON`, `camelCases` fields (and adds in some default values), and writes the output to [the `src/languages.json`](~/src/languages.json) file.
+I have [a script](~/scripts/getLanguages.js) that makes a request to [the `raw.githubusercontent` API for this file](https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml), converts the `YAML` to `JSON`, `camelCases` fields (and adds in some default values), and writes the output to [the `src/languages.json`](src/languages.json) file.
 
 I then read from this file when instantiating the `GitHubLanguagesClient`.
 
@@ -42,7 +41,7 @@ The [`fuse.io` site](http://fusejs.io/) gives a good explanation of why and how 
 
 ### `getAllLanguages`
 
-This `static` method returns the complete array of all languages available, and the metadata associated with each language.
+This `static` method returns the complete array of all languages available, and the metadata associated with each language. It essentially returns [the `src/languages.json`](src/languages.json) file as a `JavaScript` object.
 
 ```javascript
 import GitHubLanguagesClient from 'github-languages-client';
