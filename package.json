@@ -1,7 +1,7 @@
 {
   "name": "github-languages-client",
   "version": "0.0.0-development",
-  "description": "NodeJS Client to get GitHub languages",
+  "description": "NodeJS Client to get languages used on GitHub",
   "author": "jae.b.bradley@gmail.com",
   "main": "build/index.js",
   "global": false,
@@ -22,8 +22,11 @@
   },
   "keywords": [
     "github",
-    "languages",
-    "github languages"
+    "programming languages",
+    "programming language",
+    "github programming languages",
+    "github languages",
+    "github language"
   ],
   "repository": {
     "type": "git",
