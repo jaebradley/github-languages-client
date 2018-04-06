@@ -12,6 +12,7 @@
     "compile:with-scripts": "babel src/ scripts -d build/ --delete-dir-on-start",
     "compile:prod": "BABEL_ENV=production npm run compile",
     "compile:dev": "BABEL_ENV=development npm run compile:with-scripts",
+    "is-es5": "es-check es5 build/*.js",
     "lint": "eslint --ext .js .",
     "test": "jest --coverage --no-cache",
     "prepublishOnly": "npm run compile:prod",
