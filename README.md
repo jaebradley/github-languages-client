@@ -1,8 +1,8 @@
 # GitHub Languages Client
 
 [![Build Status](https://travis-ci.org/jaebradley/github-languages-client.svg?branch=master)](https://travis-ci.org/jaebradley/github-languages-client)
-[![npm](https://img.shields.io/npm/dt/express.svg)](github-https://www.npmjs.com/package/github-languages-client-client)
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/github-languages-client)
+[![npm](https://img.shields.io/npm/dt/github-languages-client.svg)](github-https://www.npmjs.com/package/github-languages-client-client)
+[![npm](https://img.shields.io/npm/v/github-languages-client.svg)](https://www.npmjs.com/package/github-languages-client)
 
 A `NodeJS` client to get languages GitHub knows about for [`Advanced Search`](https://github.com/search/advanced), for example.
 
