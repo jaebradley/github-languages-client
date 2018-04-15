@@ -1,6 +1,0 @@
-{
-  "rules": {
-    // let me import my shit
-    "import/no-extraneous-dependencies": "off"
-  }
-}
