@@ -12,7 +12,7 @@ A `NodeJS` client to get languages GitHub knows about for [`Advanced Search`](ht
 
 `GitHub` maintains [a `linguist` repository](https://github.com/github/linguist) that contains [a `languages.yml` file](https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml) that seems to represent the set of languages that `GitHub` knows about.
 
-I have [a script](~/scripts/getLanguages.js) that makes a request to [the `raw.githubusercontent` API for this file](https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml), converts the `YAML` to `JSON`, `camelCases` fields (and adds in some default values), and writes the output to [the `src/languages.json`](src/languages.json) file.
+I convert this `languages.yml` file to [a JSON file](~/src/languages.json). <sup>[1](#languages-job-footnote)</sup>
 
 I then read from this file when instantiating the `GitHubLanguagesClient`.
 
@@ -105,3 +105,11 @@ const matchingLanguages = GitHubLanguagesClient.get('JavaScript');
 //   searchable: 'true' },
 //   etc., etc.
 ```
+
+## Footnotes
+
+<ul>
+  <li>
+    <a name='languages-job-footnote'><sup>1</sup>I have [a Travis CI job](https://github.com/jaebradley/github-languages-watcher) that runs daily and opens PRs against this repository if it detects changes in the `languages.yml` file.</a>
+  </li>
+</ul>
