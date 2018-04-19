@@ -1,6 +1,7 @@
 # GitHub Languages Client
 
 [![Build Status](https://travis-ci.org/jaebradley/github-languages-client.svg?branch=master)](https://travis-ci.org/jaebradley/github-languages-client)
+[![Codecov](https://img.shields.io/codecov/c/github/jaebradley/github-languages-client.svg)](https://codecov.io/gh/jaebradley/github-languages-client)
 [![npm](https://img.shields.io/npm/dt/github-languages-client.svg)](github-https://www.npmjs.com/package/github-languages-client-client)
 [![npm](https://img.shields.io/npm/v/github-languages-client.svg)](https://www.npmjs.com/package/github-languages-client)
 
@@ -56,7 +57,9 @@ This `class` method returns fuzzy-search text matching on the language's name, a
 ```javascript
 import GitHubLanguagesClient from 'github-languages-client';
 
-const matchingLanguages = GitHubLanguagesClient.get('JavaScript');
+const client = new GitHubLanguagesClient();
+
+const matchingLanguages = client.search('JavaScript');
 
 // {
 //   type: 'programming',
@@ -110,6 +113,6 @@ const matchingLanguages = GitHubLanguagesClient.get('JavaScript');
 
 <ul>
   <li>
-    <a name='languages-job-footnote'><sup>1</sup>I have [a Travis CI job](https://github.com/jaebradley/github-languages-watcher) that runs daily and opens PRs against this repository if it detects changes in the `languages.yml` file.</a>
+    <a name='languages-job-footnote'><sup>1</sup> I have <a href="https://github.com/jaebradley/github-languages-watcher">a Travis CI job</a> that runs daily and opens PRs against this repository if it detects changes in the `languages.yml` file.</a>
   </li>
 </ul>
