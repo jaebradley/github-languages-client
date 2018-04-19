@@ -8209,7 +8209,7 @@
       ".s",
       ".ms"
     ],
-    "tmScope": "source.assembly",
+    "tmScope": "source.assembly.unix",
     "aceMode": "assembly_x86",
     "languageId": 120,
     "name": "Unix Assembly",
