@@ -1,11 +1,23 @@
 {
-  "presets": [
-    "@babel/preset-env"
-  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          { "modules": "umd" }
+        ]
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          { "modules": false }
+        ]
+      ]
+    }
+  },
   "ignore": [
-    "node_modules"
-  ],
-  "plugins": [
-    "add-module-exports"
+    "node_modules/**"
   ]
 }
