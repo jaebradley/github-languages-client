@@ -1259,6 +1259,23 @@
   },
   {
     "type": "data",
+    "aceMode": "less",
+    "codemirrorMode": "css",
+    "codemirrorMimeType": "text/css",
+    "tmScope": "source.firestore",
+    "filenames": [
+      "firestore.rules"
+    ],
+    "languageId": 407996372,
+    "name": "Cloud Firestore Security Rules",
+    "aliases": [
+      "cloud firestore security rules"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
     "extensions": [
       ".conllu",
       ".conll"
