@@ -3270,6 +3270,22 @@
   },
   {
     "type": "programming",
+    "extensions": [
+      ".q"
+    ],
+    "color": "#dce200",
+    "tmScope": "source.hql",
+    "aceMode": "sql",
+    "languageId": 931814087,
+    "name": "HiveQL",
+    "aliases": [
+      "hiveql"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "aceMode": "text",
     "color": "#7790B2",
     "extensions": [
@@ -6023,6 +6039,24 @@
     "searchable": "true"
   },
   {
+    "type": "prose",
+    "aceMode": "perl",
+    "tmScope": "source.perl6fe",
+    "wrap": true,
+    "extensions": [
+      ".pod"
+    ],
+    "interpreters": [
+      "perl6"
+    ],
+    "languageId": 155357471,
+    "name": "Pod 6",
+    "aliases": [
+      "pod 6"
+    ],
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#d80074",
     "extensions": [
@@ -6115,6 +6149,7 @@
     "codemirrorMimeType": "application/x-powershell",
     "aliases": [
       "posh",
+      "pwsh",
       "powershell"
     ],
     "extensions": [
@@ -9109,6 +9144,22 @@
     "wrap": "false",
     "searchable": "true",
     "tmScope": "none"
+  },
+  {
+    "type": "programming",
+    "extensions": [
+      ".q"
+    ],
+    "tmScope": "source.q",
+    "aceMode": "text",
+    "color": "#0040cd",
+    "languageId": 970539067,
+    "name": "q",
+    "aliases": [
+      "q"
+    ],
+    "wrap": "false",
+    "searchable": "true"
   },
   {
     "type": "prose",
