@@ -4838,7 +4838,6 @@
     "extensions": [
       ".druby",
       ".duby",
-      ".mir",
       ".mirah"
     ],
     "tmScope": "source.ruby",
@@ -7909,7 +7908,8 @@
       ".toml"
     ],
     "filenames": [
-      "Cargo.lock"
+      "Cargo.lock",
+      "Gopkg.lock"
     ],
     "tmScope": "source.toml",
     "aceMode": "toml",
@@ -8926,6 +8926,7 @@
     ],
     "extensions": [
       ".yml",
+      ".mir",
       ".reek",
       ".rviz",
       ".sublime-syntax",
@@ -8937,7 +8938,8 @@
     "filenames": [
       ".clang-format",
       ".clang-tidy",
-      ".gemrc"
+      ".gemrc",
+      "glide.lock"
     ],
     "aceMode": "yaml",
     "codemirrorMode": "yaml",
