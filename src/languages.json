@@ -4616,7 +4616,7 @@
       ".mkd",
       ".mkdn",
       ".mkdown",
-      ".ron",
+      ".ronn",
       ".workbook"
     ],
     "tmScope": "source.gfm",
