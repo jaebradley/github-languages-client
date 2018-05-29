@@ -8589,6 +8589,45 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "group": "C",
+    "aliases": [
+      "xbm",
+      "x bitmap"
+    ],
+    "extensions": [
+      ".xbm"
+    ],
+    "aceMode": "c_cpp",
+    "tmScope": "source.c",
+    "codemirrorMode": "clike",
+    "codemirrorMimeType": "text/x-csrc",
+    "languageId": 782911107,
+    "name": "X BitMap",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "group": "C",
+    "aliases": [
+      "xpm",
+      "x pixmap"
+    ],
+    "extensions": [
+      ".xpm",
+      ".pm"
+    ],
+    "aceMode": "c_cpp",
+    "tmScope": "source.c",
+    "codemirrorMode": "clike",
+    "codemirrorMimeType": "text/x-csrc",
+    "languageId": 781846279,
+    "name": "X PixMap",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "aliases": [
       "xten",
@@ -8770,22 +8809,6 @@
     "wrap": "false",
     "searchable": "true",
     "tmScope": "none"
-  },
-  {
-    "type": "data",
-    "extensions": [
-      ".xpm",
-      ".pm"
-    ],
-    "aceMode": "c_cpp",
-    "tmScope": "source.c",
-    "languageId": 781846279,
-    "name": "XPM",
-    "aliases": [
-      "xpm"
-    ],
-    "wrap": "false",
-    "searchable": "true"
   },
   {
     "type": "data",
