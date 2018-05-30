@@ -6038,24 +6038,6 @@
     "searchable": "true"
   },
   {
-    "type": "prose",
-    "aceMode": "perl",
-    "tmScope": "source.perl6fe",
-    "wrap": true,
-    "extensions": [
-      ".pod"
-    ],
-    "interpreters": [
-      "perl6"
-    ],
-    "languageId": 155357471,
-    "name": "Pod 6",
-    "aliases": [
-      "pod 6"
-    ],
-    "searchable": "true"
-  },
-  {
     "type": "programming",
     "color": "#d80074",
     "extensions": [
