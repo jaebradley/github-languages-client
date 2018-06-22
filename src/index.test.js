@@ -1,4 +1,4 @@
-import GitHubLanguagesClient from './';
+import GitHubLanguagesClient from '.';
 import languagesJSON from './languages.json';
 
 describe('GitHub Languages Client', () => {
