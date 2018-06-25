@@ -1242,8 +1242,9 @@
     "aceMode": "soy_template",
     "codemirrorMode": "soy",
     "codemirrorMimeType": "text/x-soy",
-    "alias": [
-      "soy"
+    "aliases": [
+      "soy",
+      "closure templates"
     ],
     "extensions": [
       ".soy"
@@ -1251,9 +1252,6 @@
     "tmScope": "text.html.soy",
     "languageId": 357046146,
     "name": "Closure Templates",
-    "aliases": [
-      "closure templates"
-    ],
     "wrap": "false",
     "searchable": "true"
   },
@@ -1393,7 +1391,10 @@
     "searchable": "true"
   },
   {
-    "alias": "cwl",
+    "aliases": [
+      "cwl",
+      "common workflow language"
+    ],
     "type": "programming",
     "aceMode": "yaml",
     "codemirrorMode": "yaml",
@@ -1408,9 +1409,6 @@
     "tmScope": "source.cwl",
     "languageId": 988547172,
     "name": "Common Workflow Language",
-    "aliases": [
-      "common workflow language"
-    ],
     "wrap": "false",
     "searchable": "true"
   },
@@ -5105,7 +5103,6 @@
   },
   {
     "type": "programming",
-    "lexer": "NewLisp",
     "color": "#87AED7",
     "extensions": [
       ".nl",
