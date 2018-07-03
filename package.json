@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "NodeJS Client to get languages used on GitHub",
   "author": "jae.b.bradley@gmail.com",
+  "license": "MIT",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
   "browser": "build/index.js",
