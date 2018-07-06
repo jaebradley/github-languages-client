@@ -2719,7 +2719,7 @@
   },
   {
     "type": "programming",
-    "color": "#e4cc98",
+    "color": "#c1ac7f",
     "extensions": [
       ".glf"
     ],
@@ -3578,8 +3578,6 @@
     "filenames": [
       ".arcconfig",
       ".htmlhintrc",
-      ".jscsrc",
-      ".jshintrc",
       ".tern-config",
       ".tern-project",
       "composer.lock",
@@ -3594,12 +3592,47 @@
   },
   {
     "type": "data",
+    "group": "JSON",
+    "tmScope": "source.js",
+    "aceMode": "javascript",
+    "codemirrorMode": "javascript",
+    "codemirrorMimeType": "text/javascript",
+    "aliases": [
+      "jsonc",
+      "json with comments"
+    ],
     "extensions": [
-      ".json5"
+      ".sublime-build",
+      ".sublime-commands",
+      ".sublime-completions",
+      ".sublime-keymap",
+      ".sublime-macro",
+      ".sublime-menu",
+      ".sublime-mousemap",
+      ".sublime-project",
+      ".sublime-settings",
+      ".sublime-theme",
+      ".sublime-workspace",
+      ".sublime_metrics",
+      ".sublime_session"
     ],
     "filenames": [
       ".babelrc",
-      ".jslintrc"
+      ".eslintrc.json",
+      ".jscsrc",
+      ".jshintrc",
+      ".jslintrc",
+      "tsconfig.json"
+    ],
+    "languageId": 423,
+    "name": "JSON with Comments",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".json5"
     ],
     "tmScope": "source.js",
     "aceMode": "javascript",
@@ -3859,7 +3892,7 @@
   },
   {
     "type": "programming",
-    "color": "#28431f",
+    "color": "#28430A",
     "extensions": [
       ".krl"
     ],
@@ -6840,7 +6873,7 @@
   },
   {
     "type": "programming",
-    "color": "#0e60e3",
+    "color": "#2D54CB",
     "extensions": [
       ".ring"
     ],
@@ -7744,36 +7777,6 @@
     "searchable": "true"
   },
   {
-    "type": "data",
-    "group": "JSON",
-    "tmScope": "source.js",
-    "aceMode": "javascript",
-    "codemirrorMode": "javascript",
-    "codemirrorMimeType": "text/javascript",
-    "extensions": [
-      ".sublime-build",
-      ".sublime-commands",
-      ".sublime-completions",
-      ".sublime-keymap",
-      ".sublime-macro",
-      ".sublime-menu",
-      ".sublime-mousemap",
-      ".sublime-project",
-      ".sublime-settings",
-      ".sublime-theme",
-      ".sublime-workspace",
-      ".sublime_metrics",
-      ".sublime_session"
-    ],
-    "languageId": 423,
-    "name": "Sublime Text Config",
-    "aliases": [
-      "sublime text config"
-    ],
-    "wrap": "false",
-    "searchable": "true"
-  },
-  {
     "type": "markup",
     "tmScope": "source.css.postcss.sugarss",
     "group": "CSS",
@@ -8241,7 +8244,7 @@
       ".s",
       ".ms"
     ],
-    "tmScope": "source.assembly.unix",
+    "tmScope": "source.x86",
     "aceMode": "assembly_x86",
     "languageId": 120,
     "name": "Unix Assembly",
@@ -8306,7 +8309,7 @@
   },
   {
     "type": "programming",
-    "color": "#0298c3",
+    "color": "#148AA8",
     "extensions": [
       ".vcl"
     ],
