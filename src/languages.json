@@ -2494,6 +2494,7 @@
   },
   {
     "type": "programming",
+    "color": "#355570",
     "extensions": [
       ".gd"
     ],
