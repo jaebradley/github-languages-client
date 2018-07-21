@@ -3291,6 +3291,9 @@
     "extensions": [
       ".hy"
     ],
+    "interpreters": [
+      "hy"
+    ],
     "aliases": [
       "hylang",
       "hy"
@@ -4920,6 +4923,25 @@
   {
     "type": "programming",
     "extensions": [
+      ".i3",
+      ".ig",
+      ".m3",
+      ".mg"
+    ],
+    "color": "#223388",
+    "aceMode": "text",
+    "tmScope": "source.modula-3",
+    "languageId": 564743864,
+    "name": "Modula3",
+    "aliases": [
+      "modula3"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "extensions": [
       ".mms",
       ".mmk"
     ],
@@ -6479,6 +6501,23 @@
     "wrap": "false",
     "searchable": "true",
     "tmScope": "none"
+  },
+  {
+    "type": "programming",
+    "filenames": [
+      "m3makefile",
+      "m3overrides"
+    ],
+    "color": "#882233",
+    "aceMode": "text",
+    "tmScope": "source.quake",
+    "languageId": 375265331,
+    "name": "Quake",
+    "aliases": [
+      "quake"
+    ],
+    "wrap": "false",
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -8714,6 +8753,7 @@
       ".mod",
       ".mxml",
       ".natvis",
+      ".ncl",
       ".ndproj",
       ".nproj",
       ".nuspec",
