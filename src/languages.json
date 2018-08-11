@@ -3360,6 +3360,7 @@
     "extensions": [
       ".ini",
       ".cfg",
+      ".lektorproject",
       ".prefs",
       ".pro",
       ".properties"
@@ -3577,7 +3578,9 @@
       ".tfstate.backup",
       ".topojson",
       ".webapp",
-      ".webmanifest"
+      ".webmanifest",
+      ".yy",
+      ".yyp"
     ],
     "filenames": [
       ".arcconfig",
@@ -4654,6 +4657,9 @@
       ".mkdown",
       ".ronn",
       ".workbook"
+    ],
+    "filenames": [
+      "contents.lr"
     ],
     "tmScope": "source.gfm",
     "languageId": 222,
@@ -8740,6 +8746,7 @@
       ".fxml",
       ".glade",
       ".gml",
+      ".gmx",
       ".grxml",
       ".iml",
       ".ivy",
