@@ -2205,6 +2205,23 @@
   },
   {
     "type": "programming",
+    "color": "#572e30",
+    "aliases": [
+      "fstar",
+      "f*"
+    ],
+    "extensions": [
+      ".fst"
+    ],
+    "tmScope": "source.fstar",
+    "aceMode": "text",
+    "languageId": 336943375,
+    "name": "F*",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#88ccff",
     "extensions": [
       ".fx",
@@ -6952,7 +6969,7 @@
     "type": "markup",
     "color": "#ecdebe",
     "extensions": [
-      ".man",
+      ".roff",
       ".1",
       ".1in",
       ".1m",
@@ -6970,12 +6987,13 @@
       ".8",
       ".9",
       ".l",
+      ".man",
+      ".mdoc",
       ".me",
       ".ms",
       ".n",
       ".nr",
       ".rno",
-      ".roff",
       ".tmac"
     ],
     "filenames": [
@@ -6984,7 +7002,14 @@
     ],
     "tmScope": "text.roff",
     "aliases": [
+      "groff",
+      "man",
+      "manpage",
+      "man page",
+      "man-page",
+      "mdoc",
       "nroff",
+      "troff",
       "roff"
     ],
     "aceMode": "text",
