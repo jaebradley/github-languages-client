@@ -2221,6 +2221,22 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "aliases": [
+      "FIGfont",
+      "figlet font"
+    ],
+    "extensions": [
+      ".flf"
+    ],
+    "tmScope": "source.figfont",
+    "aceMode": "text",
+    "languageId": 686129783,
+    "name": "FIGlet Font",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#88ccff",
     "extensions": [
@@ -2583,7 +2599,7 @@
   },
   {
     "type": "programming",
-    "color": "#8fb200",
+    "color": "#71b417",
     "extensions": [
       ".gml"
     ],
@@ -2749,6 +2765,21 @@
     "name": "Glyph",
     "aliases": [
       "glyph"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".bdf"
+    ],
+    "tmScope": "source.bdf",
+    "aceMode": "text",
+    "languageId": 997665271,
+    "name": "Glyph Bitmap Distribution Format",
+    "aliases": [
+      "glyph bitmap distribution format"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -8255,6 +8286,9 @@
       "ts",
       "typescript"
     ],
+    "interpreters": [
+      "node"
+    ],
     "extensions": [
       ".ts",
       ".tsx"
@@ -8630,6 +8664,23 @@
   {
     "type": "data",
     "extensions": [
+      ".reg"
+    ],
+    "tmScope": "source.reg",
+    "aceMode": "ini",
+    "codemirrorMode": "properties",
+    "codemirrorMimeType": "text/x-properties",
+    "languageId": 969674868,
+    "name": "Windows Registry Entries",
+    "aliases": [
+      "windows registry entries"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "extensions": [
       ".toc"
     ],
     "tmScope": "source.toc",
@@ -8658,6 +8709,24 @@
     "codemirrorMimeType": "text/x-csrc",
     "languageId": 782911107,
     "name": "X BitMap",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "filenames": [
+      "encodings.dir",
+      "fonts.alias",
+      "fonts.dir",
+      "fonts.scale"
+    ],
+    "tmScope": "source.fontdir",
+    "aceMode": "text",
+    "languageId": 208700028,
+    "name": "X Font Directory Index",
+    "aliases": [
+      "x font directory index"
+    ],
     "wrap": "false",
     "searchable": "true"
   },
@@ -9056,6 +9125,24 @@
     "aliases": [
       "yara"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "markup",
+    "aliases": [
+      "snippet",
+      "yas",
+      "yasnippet"
+    ],
+    "color": "#32AB90",
+    "extensions": [
+      ".yasnippet"
+    ],
+    "tmScope": "source.yasnippet",
+    "aceMode": "text",
+    "languageId": 378760102,
+    "name": "YASnippet",
     "wrap": "false",
     "searchable": "true"
   },
