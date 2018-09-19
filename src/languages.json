@@ -3346,7 +3346,7 @@
       "hylang",
       "hy"
     ],
-    "tmScope": "none",
+    "tmScope": "source.hy",
     "languageId": 159,
     "name": "Hy",
     "wrap": "false",
