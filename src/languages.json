@@ -1949,6 +1949,22 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tmScope": "text.eml.basic",
+    "aceMode": "text",
+    "languageId": 529653389,
+    "name": "EML",
+    "aliases": [
+      "eml"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#a78649",
     "extensions": [
@@ -3785,6 +3801,23 @@
     "wrap": "false",
     "searchable": "true",
     "tmScope": "none"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".properties"
+    ],
+    "tmScope": "source.java-properties",
+    "aceMode": "properties",
+    "codemirrorMode": "properties",
+    "codemirrorMimeType": "text/x-properties",
+    "languageId": 519377561,
+    "name": "Java Properties",
+    "aliases": [
+      "java properties"
+    ],
+    "wrap": "false",
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -9129,7 +9162,8 @@
     "searchable": "true"
   },
   {
-    "type": "data",
+    "type": "programming",
+    "color": "#220000",
     "aceMode": "text",
     "extensions": [
       ".yar",
