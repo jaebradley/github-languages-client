@@ -1501,7 +1501,7 @@
   },
   {
     "type": "programming",
-    "color": "#776791",
+    "color": "#000100",
     "extensions": [
       ".cr"
     ],
