@@ -3026,7 +3026,8 @@
     "extensions": [
       ".hcl",
       ".tf",
-      ".tfvars"
+      ".tfvars",
+      ".workflow"
     ],
     "aceMode": "ruby",
     "codemirrorMode": "ruby",
@@ -8948,6 +8949,7 @@
       ".vstemplate",
       ".vxml",
       ".wixproj",
+      ".workflow",
       ".wsdl",
       ".wsf",
       ".wxi",
