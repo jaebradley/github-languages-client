@@ -5750,23 +5750,6 @@
   },
   {
     "type": "programming",
-    "color": "#dbb284",
-    "extensions": [
-      ".pwn",
-      ".inc"
-    ],
-    "tmScope": "source.pawn",
-    "aceMode": "text",
-    "languageId": 271,
-    "name": "PAWN",
-    "aliases": [
-      "pawn"
-    ],
-    "wrap": "false",
-    "searchable": "true"
-  },
-  {
-    "type": "programming",
     "tmScope": "text.html.php",
     "aceMode": "php",
     "codemirrorMode": "php",
@@ -5984,6 +5967,23 @@
     "wrap": "false",
     "searchable": "true",
     "tmScope": "none"
+  },
+  {
+    "type": "programming",
+    "color": "#dbb284",
+    "extensions": [
+      ".pwn",
+      ".inc"
+    ],
+    "tmScope": "source.pawn",
+    "aceMode": "text",
+    "languageId": 271,
+    "name": "Pawn",
+    "aliases": [
+      "pawn"
+    ],
+    "wrap": "false",
+    "searchable": "true"
   },
   {
     "type": "programming",
