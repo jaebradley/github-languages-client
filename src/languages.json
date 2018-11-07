@@ -829,7 +829,6 @@
     "extensions": [
       ".cs",
       ".cake",
-      ".cshtml",
       ".csx"
     ],
     "languageId": 42,
@@ -3022,6 +3021,24 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "extensions": [
+      ".cfg"
+    ],
+    "filenames": [
+      "haproxy.cfg"
+    ],
+    "tmScope": "source.haproxy-config",
+    "aceMode": "text",
+    "languageId": 366607477,
+    "name": "HAProxy",
+    "aliases": [
+      "haproxy"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "extensions": [
       ".hcl",
@@ -3184,6 +3201,24 @@
     "name": "HTML+PHP",
     "aliases": [
       "html+php"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "markup",
+    "tmScope": "text.html.razor",
+    "group": "HTML",
+    "extensions": [
+      ".cshtml"
+    ],
+    "aceMode": "razor",
+    "codemirrorMode": "htmlmixed",
+    "codemirrorMimeType": "text/html",
+    "languageId": 479039817,
+    "name": "HTML+Razor",
+    "aliases": [
+      "html+razor"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -5318,7 +5353,13 @@
     "color": "#37775b",
     "extensions": [
       ".nim",
-      ".nimrod"
+      ".nim.cfg",
+      ".nimble",
+      ".nimrod",
+      ".nims"
+    ],
+    "filenames": [
+      "nim.cfg"
     ],
     "aceMode": "text",
     "tmScope": "source.nim",
