@@ -3207,7 +3207,7 @@
   },
   {
     "type": "markup",
-    "tmScope": "text.html.razor",
+    "tmScope": "text.html.cshtml",
     "group": "HTML",
     "extensions": [
       ".cshtml"
@@ -7221,7 +7221,7 @@
   },
   {
     "type": "programming",
-    "color": "#dea584",
+    "color": "#a62c00",
     "extensions": [
       ".rs",
       ".rs.in"
