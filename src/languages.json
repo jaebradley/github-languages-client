@@ -7221,7 +7221,7 @@
   },
   {
     "type": "programming",
-    "color": "#a62c00",
+    "color": "#dea584",
     "extensions": [
       ".rs",
       ".rs.in"
