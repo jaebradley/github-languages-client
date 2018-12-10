@@ -981,12 +981,10 @@
   },
   {
     "type": "data",
-    "group": "CoffeeScript",
     "tmScope": "source.coffee",
     "aceMode": "coffee",
     "codemirrorMode": "coffeescript",
     "codemirrorMimeType": "text/x-coffeescript",
-    "searchable": "true",
     "extensions": [
       ".cson"
     ],
@@ -995,7 +993,8 @@
     "aliases": [
       "cson"
     ],
-    "wrap": "false"
+    "wrap": "false",
+    "searchable": "true"
   },
   {
     "type": "markup",
@@ -3663,7 +3662,6 @@
   {
     "type": "data",
     "tmScope": "source.json",
-    "group": "JavaScript",
     "aceMode": "json",
     "codemirrorMode": "javascript",
     "codemirrorMimeType": "application/json",
@@ -3756,12 +3754,13 @@
   },
   {
     "type": "data",
-    "group": "JavaScript",
-    "aceMode": "javascript",
     "extensions": [
       ".jsonld"
     ],
     "tmScope": "source.js",
+    "aceMode": "javascript",
+    "codemirrorMode": "javascript",
+    "codemirrorMimeType": "application/json",
     "languageId": 176,
     "name": "JSONLD",
     "aliases": [
@@ -4610,6 +4609,26 @@
   },
   {
     "type": "programming",
+    "color": "#e16737",
+    "aliases": [
+      "octave",
+      "matlab"
+    ],
+    "extensions": [
+      ".matlab",
+      ".m"
+    ],
+    "aceMode": "matlab",
+    "codemirrorMode": "octave",
+    "codemirrorMimeType": "text/x-octave",
+    "languageId": 225,
+    "name": "MATLAB",
+    "wrap": "false",
+    "searchable": "true",
+    "tmScope": "none"
+  },
+  {
+    "type": "programming",
     "color": "#00a6a6",
     "extensions": [
       ".ms",
@@ -4841,26 +4860,6 @@
     "codemirrorMimeType": "text/x-mathematica",
     "languageId": 224,
     "name": "Mathematica",
-    "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
-  },
-  {
-    "type": "programming",
-    "color": "#e16737",
-    "aliases": [
-      "octave",
-      "matlab"
-    ],
-    "extensions": [
-      ".matlab",
-      ".m"
-    ],
-    "aceMode": "matlab",
-    "codemirrorMode": "octave",
-    "codemirrorMimeType": "text/x-octave",
-    "languageId": 225,
-    "name": "Matlab",
     "wrap": "false",
     "searchable": "true",
     "tmScope": "none"
@@ -6219,6 +6218,25 @@
     "name": "Pod",
     "aliases": [
       "pod"
+    ],
+    "searchable": "true"
+  },
+  {
+    "type": "prose",
+    "aceMode": "perl",
+    "tmScope": "source.perl6fe",
+    "wrap": true,
+    "extensions": [
+      ".pod",
+      ".pod6"
+    ],
+    "interpreters": [
+      "perl6"
+    ],
+    "languageId": 155357471,
+    "name": "Pod 6",
+    "aliases": [
+      "pod 6"
     ],
     "searchable": "true"
   },
