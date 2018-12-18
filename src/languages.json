@@ -2767,6 +2767,49 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "group": "INI",
+    "aliases": [
+      "gitattributes",
+      "git attributes"
+    ],
+    "filenames": [
+      ".gitattributes"
+    ],
+    "tmScope": "source.gitattributes",
+    "aceMode": "gitignore",
+    "codemirrorMode": "shell",
+    "codemirrorMimeType": "text/x-sh",
+    "languageId": 956324166,
+    "name": "Git Attributes",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "group": "INI",
+    "aliases": [
+      "gitconfig",
+      "gitmodules",
+      "git config"
+    ],
+    "extensions": [
+      ".gitconfig"
+    ],
+    "filenames": [
+      ".gitconfig",
+      ".gitmodules"
+    ],
+    "aceMode": "ini",
+    "codemirrorMode": "properties",
+    "codemirrorMimeType": "text/x-properties",
+    "tmScope": "source.gitconfig",
+    "languageId": 807968997,
+    "name": "Git Config",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#c1ac7f",
     "extensions": [
@@ -3467,7 +3510,6 @@
     ],
     "filenames": [
       ".editorconfig",
-      ".gitconfig",
       "buildozer.spec"
     ],
     "tmScope": "source.ini",
@@ -3517,6 +3559,44 @@
     "aliases": [
       "idris"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "group": "INI",
+    "aliases": [
+      "ignore",
+      "gitignore",
+      "git-ignore",
+      "ignore list"
+    ],
+    "extensions": [
+      ".gitignore"
+    ],
+    "filenames": [
+      ".atomignore",
+      ".babelignore",
+      ".bzrignore",
+      ".coffeelintignore",
+      ".cvsignore",
+      ".dockerignore",
+      ".eslintignore",
+      ".gitignore",
+      ".nodemonignore",
+      ".npmignore",
+      ".prettierignore",
+      ".stylelintignore",
+      ".vscodeignore",
+      "gitignore-global",
+      "gitignore_global"
+    ],
+    "aceMode": "gitignore",
+    "tmScope": "source.gitignore",
+    "codemirrorMode": "shell",
+    "codemirrorMimeType": "text/x-sh",
+    "languageId": 74444240,
+    "name": "Ignore List",
     "wrap": "false",
     "searchable": "true"
   },
@@ -9394,6 +9474,26 @@
     "wrap": "false",
     "searchable": "true",
     "tmScope": "none"
+  },
+  {
+    "type": "data",
+    "group": "INI",
+    "extensions": [
+      ".nanorc"
+    ],
+    "filenames": [
+      ".nanorc",
+      "nanorc"
+    ],
+    "tmScope": "source.nanorc",
+    "aceMode": "text",
+    "languageId": 775996197,
+    "name": "nanorc",
+    "aliases": [
+      "nanorc"
+    ],
+    "wrap": "false",
+    "searchable": "true"
   },
   {
     "type": "programming",
