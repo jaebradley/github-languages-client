@@ -3088,15 +3088,16 @@
       ".tfvars",
       ".workflow"
     ],
+    "aliases": [
+      "terraform",
+      "hcl"
+    ],
     "aceMode": "ruby",
     "codemirrorMode": "ruby",
     "codemirrorMimeType": "text/x-ruby",
     "tmScope": "source.terraform",
     "languageId": 144,
     "name": "HCL",
-    "aliases": [
-      "hcl"
-    ],
     "wrap": "false",
     "searchable": "true"
   },
@@ -3751,6 +3752,7 @@
       ".avsc",
       ".geojson",
       ".gltf",
+      ".har",
       ".JSON-tmLanguage",
       ".jsonl",
       ".tfstate",
@@ -9370,6 +9372,22 @@
     "name": "Zephir",
     "aliases": [
       "zephir"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#ec915c",
+    "extensions": [
+      ".zig"
+    ],
+    "tmScope": "source.zig",
+    "aceMode": "text",
+    "languageId": 646424281,
+    "name": "Zig",
+    "aliases": [
+      "zig"
     ],
     "wrap": "false",
     "searchable": "true"
