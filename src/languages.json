@@ -499,6 +499,27 @@
   },
   {
     "type": "programming",
+    "color": "#4a0c0c",
+    "extensions": [
+      ".asy"
+    ],
+    "interpreters": [
+      "asy"
+    ],
+    "tmScope": "source.c++",
+    "aceMode": "c_cpp",
+    "codemirrorMode": "clike",
+    "codemirrorMimeType": "text/x-kotlin",
+    "languageId": 591605007,
+    "name": "Asymptote",
+    "aliases": [
+      "asymptote"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "extensions": [
       ".aug"
     ],
@@ -1803,7 +1824,7 @@
   },
   {
     "type": "programming",
-    "color": "#0db7ed",
+    "color": "#384d54",
     "tmScope": "source.dockerfile",
     "extensions": [
       ".dockerfile"
@@ -2867,7 +2888,7 @@
   },
   {
     "type": "programming",
-    "color": "#375eab",
+    "color": "#00ADD8",
     "aliases": [
       "golang",
       "go"
@@ -4272,6 +4293,23 @@
     "wrap": "false",
     "searchable": "true",
     "tmScope": "none"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".asy"
+    ],
+    "tmScope": "source.ltspice.symbol",
+    "aceMode": "text",
+    "codemirrorMode": "spreadsheet",
+    "codemirrorMimeType": "text/x-spreadsheet",
+    "languageId": 1013566805,
+    "name": "LTspice Symbol",
+    "aliases": [
+      "ltspice symbol"
+    ],
+    "wrap": "false",
+    "searchable": "true"
   },
   {
     "type": "programming",
