@@ -3273,6 +3273,10 @@
     "type": "markup",
     "tmScope": "text.html.cshtml",
     "group": "HTML",
+    "aliases": [
+      "razor",
+      "html+razor"
+    ],
     "extensions": [
       ".cshtml"
     ],
@@ -3281,9 +3285,6 @@
     "codemirrorMimeType": "text/html",
     "languageId": 479039817,
     "name": "HTML+Razor",
-    "aliases": [
-      "html+razor"
-    ],
     "wrap": "false",
     "searchable": "true"
   },
