@@ -9565,6 +9565,22 @@
   },
   {
     "type": "programming",
+    "color": "#E22837",
+    "extensions": [
+      ".mcfunction"
+    ],
+    "tmScope": "source.mcfunction",
+    "aceMode": "text",
+    "languageId": 462488745,
+    "name": "mcfunction",
+    "aliases": [
+      "mcfunction"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "extensions": [
       ".mu"
     ],
