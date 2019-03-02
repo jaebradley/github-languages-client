@@ -1066,6 +1066,28 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "aliases": [
+      "Cabal",
+      "cabal config"
+    ],
+    "extensions": [
+      ".cabal"
+    ],
+    "filenames": [
+      "cabal.config",
+      "cabal.project"
+    ],
+    "aceMode": "haskell",
+    "codemirrorMode": "haskell",
+    "codemirrorMimeType": "text/x-haskell",
+    "tmScope": "source.cabal",
+    "languageId": 677095381,
+    "name": "Cabal Config",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "tmScope": "source.capnp",
     "extensions": [
@@ -2052,6 +2074,25 @@
     "aliases": [
       "ecere projects"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "group": "INI",
+    "filenames": [
+      ".editorconfig"
+    ],
+    "aliases": [
+      "editor-config",
+      "editorconfig"
+    ],
+    "aceMode": "ini",
+    "codemirrorMode": "properties",
+    "codemirrorMimeType": "text/x-properties",
+    "tmScope": "source.editorconfig",
+    "languageId": 96139566,
+    "name": "EditorConfig",
     "wrap": "false",
     "searchable": "true"
   },
@@ -3532,7 +3573,6 @@
       ".properties"
     ],
     "filenames": [
-      ".editorconfig",
       "buildozer.spec"
     ],
     "tmScope": "source.ini",
@@ -4913,6 +4953,7 @@
       ".markdown",
       ".mdown",
       ".mdwn",
+      ".mdx",
       ".mkd",
       ".mkdn",
       ".mkdown",
@@ -6988,7 +7029,7 @@
   },
   {
     "type": "programming",
-    "color": "#22228f",
+    "color": "#3c5caa",
     "extensions": [
       ".rkt",
       ".rktd",
@@ -8779,7 +8820,9 @@
       "vim script"
     ],
     "extensions": [
-      ".vim"
+      ".vim",
+      ".vba",
+      ".vmb"
     ],
     "filenames": [
       ".gvimrc",
