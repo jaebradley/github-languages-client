@@ -4119,6 +4119,23 @@
     "searchable": "true"
   },
   {
+    "color": "#0064bd",
+    "type": "programming",
+    "aceMode": "text",
+    "extensions": [
+      ".jsonnet",
+      ".libsonnet"
+    ],
+    "tmScope": "source.jsonnet",
+    "languageId": 664885656,
+    "name": "Jsonnet",
+    "aliases": [
+      "jsonnet"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "extensions": [
       ".jl"
@@ -7221,6 +7238,21 @@
     "name": "RenderScript",
     "aliases": [
       "renderscript"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "markup",
+    "extensions": [
+      ".rtf"
+    ],
+    "tmScope": "text.rtf",
+    "aceMode": "text",
+    "languageId": 51601661,
+    "name": "Rich Text Format",
+    "aliases": [
+      "rich text format"
     ],
     "wrap": "false",
     "searchable": "true"
