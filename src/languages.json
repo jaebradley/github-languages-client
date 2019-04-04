@@ -3319,7 +3319,8 @@
       "html+razor"
     ],
     "extensions": [
-      ".cshtml"
+      ".cshtml",
+      ".razor"
     ],
     "aceMode": "razor",
     "codemirrorMode": "htmlmixed",
@@ -3818,6 +3819,7 @@
       ".ice",
       ".JSON-tmLanguage",
       ".jsonl",
+      ".mcmeta",
       ".tfstate",
       ".tfstate.backup",
       ".topojson",
