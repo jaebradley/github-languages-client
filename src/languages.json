@@ -9524,6 +9524,40 @@
   },
   {
     "type": "programming",
+    "color": "#0d665e",
+    "extensions": [
+      ".zap",
+      ".xzap"
+    ],
+    "tmScope": "source.zap",
+    "aceMode": "text",
+    "languageId": 952972794,
+    "name": "ZAP",
+    "aliases": [
+      "zap"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#dc75e5",
+    "extensions": [
+      ".zil",
+      ".mud"
+    ],
+    "tmScope": "source.zil",
+    "aceMode": "text",
+    "languageId": 973483626,
+    "name": "ZIL",
+    "aliases": [
+      "zil"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#118f9e",
     "extensions": [
       ".zep"
