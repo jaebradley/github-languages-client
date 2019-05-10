@@ -799,21 +799,6 @@
   },
   {
     "type": "programming",
-    "extensions": [
-      ".bro"
-    ],
-    "aceMode": "text",
-    "languageId": 40,
-    "name": "Bro",
-    "aliases": [
-      "bro"
-    ],
-    "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
-  },
-  {
-    "type": "programming",
     "color": "#555555",
     "extensions": [
       ".c",
@@ -3017,18 +3002,18 @@
       "gf",
       "grammatical framework"
     ],
-    "wrap": "false",
     "extensions": [
       ".gf"
     ],
-    "searchable": true,
     "color": "#79aa7a",
-    "tmScope": "source.haskell",
+    "tmScope": "source.gf",
     "aceMode": "haskell",
     "codemirrorMode": "haskell",
     "codemirrorMimeType": "text/x-haskell",
     "languageId": 137,
-    "name": "Grammatical Framework"
+    "name": "Grammatical Framework",
+    "wrap": "false",
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -3494,6 +3479,24 @@
   },
   {
     "type": "programming",
+    "color": "#ffefaf",
+    "extensions": [
+      ".hc"
+    ],
+    "tmScope": "source.hc",
+    "aceMode": "c_cpp",
+    "codemirrorMode": "clike",
+    "codemirrorMimeType": "text/x-csrc",
+    "languageId": 928121743,
+    "name": "HolyC",
+    "aliases": [
+      "holyc"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "aceMode": "text",
     "color": "#7790B2",
     "extensions": [
@@ -3877,6 +3880,7 @@
       ".jshintrc",
       ".jslintrc",
       "jsconfig.json",
+      "language-configuration.json",
       "tsconfig.json"
     ],
     "languageId": 423,
@@ -4061,7 +4065,13 @@
       "Jakefile"
     ],
     "interpreters": [
-      "node"
+      "chakra",
+      "d8",
+      "js",
+      "node",
+      "rhino",
+      "v8",
+      "v8-shell"
     ],
     "languageId": 183,
     "name": "JavaScript",
@@ -7656,6 +7666,27 @@
   },
   {
     "type": "data",
+    "group": "INI",
+    "filenames": [
+      "ssh-config",
+      "ssh_config",
+      "sshconfig",
+      "sshconfig.snip",
+      "sshd-config",
+      "sshd_config"
+    ],
+    "aceMode": "text",
+    "tmScope": "source.ssh-config",
+    "languageId": 554920715,
+    "name": "SSH Config",
+    "aliases": [
+      "ssh config"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
     "group": "Smalltalk",
     "extensions": [
       ".ston"
@@ -8363,6 +8394,39 @@
   {
     "type": "programming",
     "extensions": [
+      ".sql"
+    ],
+    "aceMode": "sql",
+    "tmScope": "source.tsql",
+    "languageId": 918334941,
+    "name": "TSQL",
+    "aliases": [
+      "tsql"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "group": "TypeScript",
+    "extensions": [
+      ".tsx"
+    ],
+    "tmScope": "source.tsx",
+    "aceMode": "javascript",
+    "codemirrorMode": "jsx",
+    "codemirrorMimeType": "text/jsx",
+    "languageId": 94901924,
+    "name": "TSX",
+    "aliases": [
+      "tsx"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "extensions": [
       ".txl"
     ],
     "tmScope": "source.txl",
@@ -8641,11 +8705,11 @@
       "typescript"
     ],
     "interpreters": [
-      "node"
+      "deno",
+      "ts-node"
     ],
     "extensions": [
-      ".ts",
-      ".tsx"
+      ".ts"
     ],
     "tmScope": "source.ts",
     "aceMode": "typescript",
@@ -9030,6 +9094,22 @@
     "name": "Windows Registry Entries",
     "aliases": [
       "windows registry entries"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#a23738",
+    "extensions": [
+      ".wlk"
+    ],
+    "aceMode": "text",
+    "tmScope": "source.wollok",
+    "languageId": 632745969,
+    "name": "Wollok",
+    "aliases": [
+      "wollok"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -9552,6 +9632,39 @@
     "name": "ZIL",
     "aliases": [
       "zil"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "aliases": [
+      "bro",
+      "zeek"
+    ],
+    "extensions": [
+      ".zeek",
+      ".bro"
+    ],
+    "tmScope": "source.zeek",
+    "aceMode": "text",
+    "languageId": 40,
+    "name": "Zeek",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#00BCD1",
+    "extensions": [
+      ".zs"
+    ],
+    "tmScope": "source.zenscript",
+    "aceMode": "text",
+    "languageId": 494938890,
+    "name": "ZenScript",
+    "aliases": [
+      "zenscript"
     ],
     "wrap": "false",
     "searchable": "true"
