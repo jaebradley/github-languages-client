@@ -2504,9 +2504,11 @@
     "searchable": "true"
   },
   {
-    "type": "data",
+    "type": "programming",
+    "color": "#D08CF2",
     "extensions": [
       ".g",
+      ".cnc",
       ".gco",
       ".gcode"
     ],
@@ -5329,6 +5331,22 @@
   },
   {
     "type": "programming",
+    "group": "Assembly",
+    "extensions": [
+      ".X68"
+    ],
+    "tmScope": "source.m68k",
+    "aceMode": "assembly_x86",
+    "languageId": 477582706,
+    "name": "Motorola 68K Assembly",
+    "aliases": [
+      "motorola 68k assembly"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "extensions": [
       ".myt"
     ],
@@ -5699,6 +5717,22 @@
     "name": "ObjDump",
     "aliases": [
       "objdump"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "extensions": [
+      ".cls"
+    ],
+    "languageId": 202735509,
+    "tmScope": "source.objectscript",
+    "color": "#424893",
+    "aceMode": "text",
+    "name": "ObjectScript",
+    "aliases": [
+      "objectscript"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -6210,7 +6244,8 @@
     "color": "#dbb284",
     "extensions": [
       ".pwn",
-      ".inc"
+      ".inc",
+      ".sma"
     ],
     "tmScope": "source.pawn",
     "aceMode": "text",
@@ -7526,7 +7561,7 @@
   },
   {
     "type": "markup",
-    "tmScope": "source.scss",
+    "tmScope": "source.css.scss",
     "group": "CSS",
     "aceMode": "scss",
     "codemirrorMode": "css",
@@ -8130,8 +8165,7 @@
     ],
     "extensions": [
       ".sp",
-      ".inc",
-      ".sma"
+      ".inc"
     ],
     "tmScope": "source.sp",
     "aceMode": "text",
@@ -8296,6 +8330,24 @@
     "name": "SuperCollider",
     "aliases": [
       "supercollider"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "markup",
+    "tmScope": "source.svelte",
+    "group": "HTML",
+    "aceMode": "html",
+    "codemirrorMode": "htmlmixed",
+    "codemirrorMimeType": "text/html",
+    "extensions": [
+      ".svelte"
+    ],
+    "languageId": 928734530,
+    "name": "Svelte",
+    "aliases": [
+      "svelte"
     ],
     "wrap": "false",
     "searchable": "true"
