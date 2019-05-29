@@ -314,6 +314,25 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "aliases": [
+      "altium",
+      "altium designer"
+    ],
+    "extensions": [
+      ".OutJob",
+      ".PcbDoc",
+      ".PrjPCB",
+      ".SchDoc"
+    ],
+    "tmScope": "source.ini",
+    "aceMode": "ini",
+    "languageId": 187772328,
+    "name": "Altium Designer",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#C7D7DC",
     "extensions": [
@@ -9133,6 +9152,21 @@
       "webidl"
     ],
     "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "wrap": true,
+    "extensions": [
+      ".vtt"
+    ],
+    "tmScope": "source.vtt",
+    "aceMode": "text",
+    "languageId": 658679714,
+    "name": "WebVTT",
+    "aliases": [
+      "webvtt"
+    ],
     "searchable": "true"
   },
   {
