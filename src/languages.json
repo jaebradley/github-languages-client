@@ -1830,6 +1830,24 @@
     "searchable": "true"
   },
   {
+    "type": "programming",
+    "color": "#dfafff",
+    "extensions": [
+      ".dhall"
+    ],
+    "tmScope": "source.haskell",
+    "aceMode": "haskell",
+    "codemirrorMode": "haskell",
+    "codemirrorMimeType": "text/x-haskell",
+    "languageId": 793969321,
+    "name": "Dhall",
+    "aliases": [
+      "dhall"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "data",
     "extensions": [
       ".diff",
@@ -4098,6 +4116,24 @@
     ],
     "languageId": 183,
     "name": "JavaScript",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "tmScope": "source.js",
+    "group": "JavaScript",
+    "extensions": [
+      ".js.erb"
+    ],
+    "aceMode": "javascript",
+    "codemirrorMode": "javascript",
+    "codemirrorMimeType": "application/javascript",
+    "languageId": 914318960,
+    "name": "JavaScript+ERB",
+    "aliases": [
+      "javascript+erb"
+    ],
     "wrap": "false",
     "searchable": "true"
   },
@@ -9565,7 +9601,7 @@
       ".xojo_toolbar",
       ".xojo_window"
     ],
-    "tmScope": "source.vbnet",
+    "tmScope": "source.xojo",
     "aceMode": "text",
     "languageId": 405,
     "name": "Xojo",
