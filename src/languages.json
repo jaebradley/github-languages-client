@@ -667,6 +667,24 @@
     "tmScope": "none"
   },
   {
+    "type": "markup",
+    "group": "TeX",
+    "extensions": [
+      ".bib"
+    ],
+    "tmScope": "text.bibtex",
+    "aceMode": "tex",
+    "codemirrorMode": "stex",
+    "codemirrorMimeType": "text/x-stex",
+    "languageId": 982188347,
+    "name": "BibTeX",
+    "aliases": [
+      "bibtex"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "group": "Yacc",
     "tmScope": "source.bison",
@@ -8602,6 +8620,7 @@
     "aceMode": "tex",
     "codemirrorMode": "stex",
     "codemirrorMimeType": "text/x-stex",
+    "tmScope": "text.tex.latex",
     "wrap": true,
     "aliases": [
       "latex",
@@ -8611,7 +8630,6 @@
       ".tex",
       ".aux",
       ".bbx",
-      ".bib",
       ".cbx",
       ".cls",
       ".dtx",
@@ -8626,8 +8644,7 @@
     ],
     "languageId": 369,
     "name": "TeX",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "markup",
