@@ -22,6 +22,7 @@
     "extensions": [
       ".abap"
     ],
+    "tmScope": "source.abap",
     "aceMode": "abap",
     "languageId": 1,
     "name": "ABAP",
@@ -29,8 +30,7 @@
       "abap"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -90,6 +90,7 @@
     "extensions": [
       ".g4"
     ],
+    "tmScope": "source.antlr",
     "aceMode": "text",
     "languageId": 4,
     "name": "ANTLR",
@@ -97,8 +98,7 @@
       "antlr"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "markup",
@@ -235,12 +235,12 @@
       "ada2005",
       "ada"
     ],
+    "tmScope": "source.ada",
     "aceMode": "ada",
     "languageId": 11,
     "name": "Ada",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -267,6 +267,7 @@
     "extensions": [
       ".agda"
     ],
+    "tmScope": "source.agda",
     "aceMode": "text",
     "languageId": 12,
     "name": "Agda",
@@ -274,8 +275,7 @@
       "agda"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -283,6 +283,7 @@
     "extensions": [
       ".als"
     ],
+    "tmScope": "source.alloy",
     "aceMode": "text",
     "languageId": 13,
     "name": "Alloy",
@@ -290,8 +291,7 @@
       "alloy"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -438,13 +438,13 @@
     "interpreters": [
       "osascript"
     ],
+    "tmScope": "source.applescript",
     "aceMode": "applescript",
     "color": "#101F1F",
     "languageId": 19,
     "name": "AppleScript",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -604,6 +604,7 @@
       "mawk",
       "nawk"
     ],
+    "tmScope": "source.awk",
     "aceMode": "text",
     "languageId": 28,
     "name": "Awk",
@@ -611,8 +612,7 @@
       "awk"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -656,6 +656,7 @@
     "extensions": [
       ".befunge"
     ],
+    "tmScope": "source.befunge",
     "aceMode": "text",
     "languageId": 30,
     "name": "Befunge",
@@ -663,8 +664,7 @@
       "befunge"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "markup",
@@ -687,7 +687,7 @@
   {
     "type": "programming",
     "group": "Yacc",
-    "tmScope": "source.bison",
+    "tmScope": "source.yacc",
     "extensions": [
       ".bison"
     ],
@@ -762,12 +762,12 @@
       "bmax",
       "blitzmax"
     ],
+    "tmScope": "source.blitzmax",
     "aceMode": "text",
     "languageId": 35,
     "name": "BlitzMax",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -846,6 +846,7 @@
     "interpreters": [
       "tcc"
     ],
+    "tmScope": "source.c",
     "aceMode": "c_cpp",
     "codemirrorMode": "clike",
     "codemirrorMimeType": "text/x-csrc",
@@ -855,8 +856,7 @@
       "c"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -881,6 +881,7 @@
   },
   {
     "type": "programming",
+    "tmScope": "source.c++",
     "aceMode": "c_cpp",
     "codemirrorMode": "clike",
     "codemirrorMimeType": "text/x-c++src",
@@ -911,8 +912,7 @@
     "languageId": 43,
     "name": "C++",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -972,6 +972,7 @@
     "filenames": [
       "CMakeLists.txt"
     ],
+    "tmScope": "source.cmake",
     "aceMode": "text",
     "codemirrorMode": "cmake",
     "codemirrorMimeType": "text/x-cmake",
@@ -981,8 +982,7 @@
       "cmake"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -993,6 +993,7 @@
       ".cobol",
       ".cpy"
     ],
+    "tmScope": "source.cobol",
     "aceMode": "cobol",
     "codemirrorMode": "cobol",
     "codemirrorMimeType": "text/x-cobol",
@@ -1002,8 +1003,7 @@
       "cobol"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -1166,12 +1166,12 @@
     "extensions": [
       ".chpl"
     ],
+    "tmScope": "source.chapel",
     "aceMode": "text",
     "languageId": 55,
     "name": "Chapel",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -1208,6 +1208,7 @@
   {
     "type": "programming",
     "color": "#ccccff",
+    "tmScope": "source.cirru",
     "aceMode": "cirru",
     "extensions": [
       ".cirru"
@@ -1218,8 +1219,7 @@
       "cirru"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -1272,6 +1272,7 @@
   },
   {
     "type": "programming",
+    "tmScope": "source.clojure",
     "aceMode": "clojure",
     "codemirrorMode": "clojure",
     "codemirrorMimeType": "text/x-clojure",
@@ -1296,8 +1297,7 @@
       "clojure"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "markup",
@@ -1517,6 +1517,7 @@
       ".coq",
       ".v"
     ],
+    "tmScope": "source.coq",
     "aceMode": "text",
     "languageId": 69,
     "name": "Coq",
@@ -1524,8 +1525,7 @@
       "coq"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -1680,14 +1680,14 @@
       "pyrex",
       "cython"
     ],
+    "tmScope": "source.cython",
     "aceMode": "text",
     "codemirrorMode": "python",
     "codemirrorMimeType": "text/x-cython",
     "languageId": 79,
     "name": "Cython",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -1696,6 +1696,7 @@
       ".d",
       ".di"
     ],
+    "tmScope": "source.d",
     "aceMode": "d",
     "codemirrorMode": "d",
     "codemirrorMimeType": "text/x-d",
@@ -1705,8 +1706,7 @@
       "d"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -1819,6 +1819,7 @@
     "interpreters": [
       "dart"
     ],
+    "tmScope": "source.dart",
     "aceMode": "dart",
     "codemirrorMode": "dart",
     "codemirrorMimeType": "application/dart",
@@ -1828,8 +1829,7 @@
       "dart"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -1930,6 +1930,7 @@
       ".intr",
       ".lid"
     ],
+    "tmScope": "source.dylan",
     "aceMode": "text",
     "codemirrorMode": "dylan",
     "codemirrorMimeType": "text/x-dylan",
@@ -1939,8 +1940,7 @@
       "dylan"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -2159,6 +2159,7 @@
     "extensions": [
       ".e"
     ],
+    "tmScope": "source.eiffel",
     "aceMode": "eiffel",
     "codemirrorMode": "eiffel",
     "codemirrorMimeType": "text/x-eiffel",
@@ -2168,8 +2169,7 @@
       "eiffel"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -2178,6 +2178,7 @@
       ".ex",
       ".exs"
     ],
+    "tmScope": "source.elixir",
     "aceMode": "elixir",
     "filenames": [
       "mix.lock"
@@ -2191,8 +2192,7 @@
       "elixir"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -2283,6 +2283,7 @@
       "rebar.config.lock",
       "rebar.lock"
     ],
+    "tmScope": "source.erlang",
     "aceMode": "erlang",
     "codemirrorMode": "erlang",
     "codemirrorMimeType": "text/x-erlang",
@@ -2295,8 +2296,7 @@
       "erlang"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -2380,6 +2380,7 @@
       ".factor-boot-rc",
       ".factor-rc"
     ],
+    "tmScope": "source.factor",
     "aceMode": "text",
     "codemirrorMode": "factor",
     "codemirrorMimeType": "text/x-factor",
@@ -2389,8 +2390,7 @@
       "factor"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -2402,6 +2402,7 @@
     "filenames": [
       "Fakefile"
     ],
+    "tmScope": "source.fancy",
     "aceMode": "text",
     "languageId": 109,
     "name": "Fancy",
@@ -2409,8 +2410,7 @@
       "fancy"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -2488,6 +2488,7 @@
       ".frt",
       ".fs"
     ],
+    "tmScope": "source.forth",
     "aceMode": "forth",
     "codemirrorMode": "forth",
     "codemirrorMimeType": "text/x-forth",
@@ -2497,8 +2498,7 @@
       "forth"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -2573,6 +2573,22 @@
     "name": "GCode",
     "aliases": [
       "gcode"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#FFC766",
+    "extensions": [
+      ".gaml"
+    ],
+    "tmScope": "none",
+    "aceMode": "text",
+    "languageId": 290345951,
+    "name": "GAML",
+    "aliases": [
+      "gaml"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -2682,6 +2698,7 @@
       ".vsh",
       ".vshader"
     ],
+    "tmScope": "source.glsl",
     "aceMode": "glsl",
     "languageId": 124,
     "name": "GLSL",
@@ -2689,8 +2706,7 @@
       "glsl"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -2960,6 +2976,7 @@
     "interpreters": [
       "gnuplot"
     ],
+    "tmScope": "source.gnuplot",
     "aceMode": "text",
     "languageId": 131,
     "name": "Gnuplot",
@@ -2967,8 +2984,7 @@
       "gnuplot"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -2980,14 +2996,14 @@
     "extensions": [
       ".go"
     ],
+    "tmScope": "source.go",
     "aceMode": "golang",
     "codemirrorMode": "go",
     "codemirrorMimeType": "text/x-go",
     "languageId": 132,
     "name": "Go",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -3123,6 +3139,7 @@
   },
   {
     "type": "programming",
+    "tmScope": "source.groovy",
     "aceMode": "groovy",
     "codemirrorMode": "groovy",
     "codemirrorMimeType": "text/x-groovy",
@@ -3145,8 +3162,7 @@
       "groovy"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -3412,6 +3428,7 @@
     "codemirrorMode": "php",
     "codemirrorMimeType": "application/x-httpd-php",
     "extensions": [
+      ".hack",
       ".hh",
       ".php"
     ],
@@ -3432,6 +3449,7 @@
       ".haml",
       ".haml.deface"
     ],
+    "tmScope": "text.haml",
     "aceMode": "haml",
     "codemirrorMode": "haml",
     "codemirrorMimeType": "text/x-haml",
@@ -3441,8 +3459,7 @@
       "haml"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "markup",
@@ -3489,6 +3506,7 @@
     "interpreters": [
       "runhaskell"
     ],
+    "tmScope": "source.haskell",
     "aceMode": "haskell",
     "codemirrorMode": "haskell",
     "codemirrorMimeType": "text/x-haskell",
@@ -3498,8 +3516,7 @@
       "haskell"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -3596,6 +3613,7 @@
       ".pro",
       ".dlm"
     ],
+    "tmScope": "source.idl",
     "aceMode": "text",
     "codemirrorMode": "idl",
     "codemirrorMimeType": "text/x-idl",
@@ -3605,11 +3623,11 @@
       "idl"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
+    "color": "#0000cc",
     "extensions": [
       ".ipf"
     ],
@@ -3618,7 +3636,7 @@
       "igorpro",
       "igor pro"
     ],
-    "tmScope": "none",
+    "tmScope": "source.igor",
     "aceMode": "text",
     "languageId": 162,
     "name": "IGOR Pro",
@@ -3768,6 +3786,7 @@
     "interpreters": [
       "io"
     ],
+    "tmScope": "source.io",
     "aceMode": "io",
     "languageId": 168,
     "name": "Io",
@@ -3775,8 +3794,7 @@
       "io"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -3787,6 +3805,7 @@
     "interpreters": [
       "ioke"
     ],
+    "tmScope": "source.ioke",
     "aceMode": "text",
     "languageId": 169,
     "name": "Ioke",
@@ -3794,8 +3813,7 @@
       "ioke"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -4034,6 +4052,7 @@
   },
   {
     "type": "programming",
+    "tmScope": "source.java",
     "aceMode": "java",
     "codemirrorMode": "clike",
     "codemirrorMimeType": "text/x-java",
@@ -4047,8 +4066,7 @@
       "java"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -4233,6 +4251,7 @@
       "julia"
     ],
     "color": "#a270ba",
+    "tmScope": "source.julia",
     "aceMode": "julia",
     "codemirrorMode": "julia",
     "codemirrorMimeType": "text/x-julia",
@@ -4242,8 +4261,7 @@
       "julia"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "markup",
@@ -4397,6 +4415,7 @@
     "extensions": [
       ".ll"
     ],
+    "tmScope": "source.llvm",
     "aceMode": "text",
     "color": "#185619",
     "languageId": 191,
@@ -4405,8 +4424,7 @@
       "llvm"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -4426,6 +4444,7 @@
   },
   {
     "type": "programming",
+    "tmScope": "source.lsl",
     "aceMode": "lsl",
     "extensions": [
       ".lsl",
@@ -4441,8 +4460,7 @@
       "lsl"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -4523,6 +4541,7 @@
       ".lean",
       ".hlean"
     ],
+    "tmScope": "source.lean",
     "aceMode": "text",
     "languageId": 197,
     "name": "Lean",
@@ -4530,8 +4549,7 @@
       "lean"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "markup",
@@ -4562,7 +4580,7 @@
       ".l",
       ".lex"
     ],
-    "tmScope": "none",
+    "tmScope": "source.lex",
     "aceMode": "text",
     "languageId": 199,
     "name": "Lex",
@@ -4575,6 +4593,7 @@
       ".ly",
       ".ily"
     ],
+    "tmScope": "source.lilypond",
     "aceMode": "text",
     "languageId": 200,
     "name": "LilyPond",
@@ -4582,8 +4601,7 @@
       "lilypond"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -4719,14 +4737,14 @@
     "filenames": [
       "Slakefile"
     ],
+    "tmScope": "source.livescript",
     "aceMode": "livescript",
     "codemirrorMode": "livescript",
     "codemirrorMimeType": "text/x-livescript",
     "languageId": 208,
     "name": "LiveScript",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -4751,6 +4769,7 @@
       ".lgt",
       ".logtalk"
     ],
+    "tmScope": "source.logtalk",
     "aceMode": "text",
     "languageId": 210,
     "name": "Logtalk",
@@ -4758,8 +4777,7 @@
       "logtalk"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -4798,6 +4816,7 @@
   },
   {
     "type": "programming",
+    "tmScope": "source.lua",
     "aceMode": "lua",
     "codemirrorMode": "lua",
     "codemirrorMimeType": "text/x-lua",
@@ -4820,8 +4839,7 @@
       "lua"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -4888,14 +4906,14 @@
       ".matlab",
       ".m"
     ],
+    "tmScope": "source.matlab",
     "aceMode": "matlab",
     "codemirrorMode": "octave",
     "codemirrorMimeType": "text/x-octave",
     "languageId": 225,
     "name": "MATLAB",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -5019,14 +5037,14 @@
     "interpreters": [
       "make"
     ],
+    "tmScope": "source.makefile",
     "aceMode": "makefile",
     "codemirrorMode": "cmake",
     "codemirrorMimeType": "text/x-cmake",
     "languageId": 220,
     "name": "Makefile",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -5126,14 +5144,14 @@
       "mma",
       "mathematica"
     ],
+    "tmScope": "source.mathematica",
     "aceMode": "text",
     "codemirrorMode": "mathematica",
     "codemirrorMimeType": "text/x-mathematica",
     "languageId": 224,
     "name": "Mathematica",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -5392,6 +5410,7 @@
     "interpreters": [
       "moon"
     ],
+    "tmScope": "source.moonscript",
     "aceMode": "text",
     "languageId": 238,
     "name": "MoonScript",
@@ -5399,8 +5418,7 @@
       "moonscript"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -5470,6 +5488,7 @@
       ".nsi",
       ".nsh"
     ],
+    "tmScope": "source.nsis",
     "aceMode": "text",
     "codemirrorMode": "nsis",
     "codemirrorMimeType": "text/x-nsis",
@@ -5479,8 +5498,7 @@
       "nsis"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -5505,6 +5523,7 @@
     "extensions": [
       ".n"
     ],
+    "tmScope": "source.nemerle",
     "aceMode": "text",
     "languageId": 243,
     "name": "Nemerle",
@@ -5512,8 +5531,7 @@
       "nemerle"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -5894,6 +5912,7 @@
     "extensions": [
       ".opa"
     ],
+    "tmScope": "source.opa",
     "aceMode": "text",
     "languageId": 261,
     "name": "Opa",
@@ -5901,8 +5920,7 @@
       "opa"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -5989,6 +6007,21 @@
     "name": "OpenSCAD",
     "aliases": [
       "openscad"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".plist"
+    ],
+    "tmScope": "source.plist",
+    "aceMode": "text",
+    "languageId": 598917541,
+    "name": "OpenStep Property List",
+    "aliases": [
+      "openstep property list"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -6190,12 +6223,12 @@
       ".pov",
       ".inc"
     ],
+    "tmScope": "source.pov-ray sdl",
     "aceMode": "text",
     "languageId": 275,
     "name": "POVRay SDL",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -6300,6 +6333,7 @@
     "interpreters": [
       "instantfpc"
     ],
+    "tmScope": "source.pascal",
     "aceMode": "pascal",
     "codemirrorMode": "pascal",
     "codemirrorMimeType": "text/x-pascal",
@@ -6309,8 +6343,7 @@
       "pascal"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -6495,6 +6528,7 @@
     "interpreters": [
       "pike"
     ],
+    "tmScope": "source.pike",
     "aceMode": "text",
     "languageId": 287,
     "name": "Pike",
@@ -6502,8 +6536,7 @@
       "pike"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "prose",
@@ -6632,6 +6665,7 @@
   {
     "type": "programming",
     "color": "#012456",
+    "tmScope": "source.powershell",
     "aceMode": "powershell",
     "codemirrorMode": "powershell",
     "codemirrorMimeType": "application/x-powershell",
@@ -6651,8 +6685,7 @@
     "languageId": 293,
     "name": "PowerShell",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -6660,6 +6693,7 @@
     "extensions": [
       ".pde"
     ],
+    "tmScope": "source.processing",
     "aceMode": "text",
     "languageId": 294,
     "name": "Processing",
@@ -6667,8 +6701,7 @@
       "processing"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -6838,6 +6871,7 @@
   },
   {
     "type": "programming",
+    "tmScope": "source.python",
     "aceMode": "python",
     "codemirrorMode": "python",
     "codemirrorMimeType": "text/x-python",
@@ -6887,8 +6921,7 @@
     "languageId": 303,
     "name": "Python",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -6946,6 +6979,7 @@
     "interpreters": [
       "qmake"
     ],
+    "tmScope": "source.qmake",
     "aceMode": "text",
     "languageId": 306,
     "name": "QMake",
@@ -6953,8 +6987,7 @@
       "qmake"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -6994,14 +7027,14 @@
     "interpreters": [
       "Rscript"
     ],
+    "tmScope": "source.r",
     "aceMode": "r",
     "codemirrorMode": "r",
     "codemirrorMimeType": "text/x-rsrc",
     "languageId": 307,
     "name": "R",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "markup",
@@ -7445,8 +7478,11 @@
       ".tmac"
     ],
     "filenames": [
+      "eqnrc",
       "mmn",
-      "mmt"
+      "mmt",
+      "troffrc",
+      "troffrc-end"
     ],
     "tmScope": "text.roff",
     "aliases": [
@@ -7525,6 +7561,7 @@
   },
   {
     "type": "programming",
+    "tmScope": "source.ruby",
     "aceMode": "ruby",
     "codemirrorMode": "ruby",
     "codemirrorMimeType": "text/x-ruby",
@@ -7593,8 +7630,7 @@
     "languageId": 326,
     "name": "Ruby",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -7603,6 +7639,7 @@
       ".rs",
       ".rs.in"
     ],
+    "tmScope": "source.rust",
     "aceMode": "rust",
     "codemirrorMode": "rust",
     "codemirrorMimeType": "text/x-rustsrc",
@@ -7612,8 +7649,7 @@
       "rust"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -7817,7 +7853,7 @@
     "extensions": [
       ".svg"
     ],
-    "tmScope": "text.xml",
+    "tmScope": "text.xml.svg",
     "aceMode": "xml",
     "codemirrorMode": "xml",
     "codemirrorMimeType": "text/xml",
@@ -7888,6 +7924,7 @@
   },
   {
     "type": "programming",
+    "tmScope": "source.scala",
     "aceMode": "scala",
     "codemirrorMode": "clike",
     "codemirrorMimeType": "text/x-scala",
@@ -7907,8 +7944,7 @@
       "scala"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "group": "HTML",
@@ -7946,6 +7982,7 @@
       "gosh",
       "r6rs"
     ],
+    "tmScope": "source.scheme",
     "aceMode": "scheme",
     "codemirrorMode": "scheme",
     "codemirrorMimeType": "text/x-scheme",
@@ -7955,8 +7992,7 @@
       "scheme"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -7965,6 +8001,7 @@
       ".sce",
       ".tst"
     ],
+    "tmScope": "source.scilab",
     "aceMode": "text",
     "languageId": 344,
     "name": "Scilab",
@@ -7972,8 +8009,7 @@
       "scilab"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -8071,14 +8107,14 @@
       "sh",
       "zsh"
     ],
+    "tmScope": "source.shell",
     "aceMode": "sh",
     "codemirrorMode": "shell",
     "codemirrorMimeType": "text/x-sh",
     "languageId": 346,
     "name": "Shell",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -8168,6 +8204,23 @@
   {
     "type": "programming",
     "extensions": [
+      ".cocci"
+    ],
+    "aliases": [
+      "coccinelle",
+      "smpl"
+    ],
+    "aceMode": "text",
+    "tmScope": "source.smpl",
+    "color": "#c94949",
+    "languageId": 164123055,
+    "name": "SmPL",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "extensions": [
       ".smali"
     ],
     "aceMode": "text",
@@ -8191,14 +8244,14 @@
       "squeak",
       "smalltalk"
     ],
+    "tmScope": "source.smalltalk",
     "aceMode": "text",
     "codemirrorMode": "smalltalk",
     "codemirrorMimeType": "text/x-stsrc",
     "languageId": 352,
     "name": "Smalltalk",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -8241,7 +8294,7 @@
       ".sp",
       ".inc"
     ],
-    "tmScope": "source.sp",
+    "tmScope": "source.sourcepawn",
     "aceMode": "text",
     "languageId": 354,
     "name": "SourcePawn",
@@ -8330,6 +8383,7 @@
       ".matah",
       ".sthlp"
     ],
+    "tmScope": "source.stata",
     "aceMode": "text",
     "languageId": 358,
     "name": "Stata",
@@ -8337,8 +8391,7 @@
       "stata"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "markup",
@@ -8432,6 +8485,7 @@
     "extensions": [
       ".swift"
     ],
+    "tmScope": "source.swift",
     "aceMode": "text",
     "codemirrorMode": "swift",
     "codemirrorMimeType": "text/x-swift",
@@ -8441,8 +8495,7 @@
       "swift"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -8452,6 +8505,7 @@
       ".svh",
       ".vh"
     ],
+    "tmScope": "source.systemverilog",
     "aceMode": "verilog",
     "codemirrorMode": "verilog",
     "codemirrorMimeType": "text/x-systemverilog",
@@ -8461,8 +8515,7 @@
       "systemverilog"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -8583,6 +8636,7 @@
       "tclsh",
       "wish"
     ],
+    "tmScope": "source.tcl",
     "aceMode": "tcl",
     "codemirrorMode": "tcl",
     "codemirrorMimeType": "text/x-tcl",
@@ -8592,8 +8646,7 @@
       "tcl"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -8667,6 +8720,7 @@
       ".t"
     ],
     "color": "#00004c",
+    "tmScope": "source.terra",
     "aceMode": "lua",
     "codemirrorMode": "lua",
     "codemirrorMimeType": "text/x-lua",
@@ -8679,8 +8733,27 @@
       "terra"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
+  },
+  {
+    "type": "prose",
+    "wrap": true,
+    "extensions": [
+      ".texinfo",
+      ".texi",
+      ".txi"
+    ],
+    "aceMode": "text",
+    "tmScope": "text.texinfo",
+    "interpreters": [
+      "makeinfo"
+    ],
+    "languageId": 988020015,
+    "name": "Texinfo",
+    "aliases": [
+      "texinfo"
+    ],
+    "searchable": "true"
   },
   {
     "type": "prose",
@@ -8959,6 +9032,25 @@
   },
   {
     "type": "programming",
+    "color": "#5d87bd",
+    "aliases": [
+      "vlang",
+      "v"
+    ],
+    "extensions": [
+      ".v"
+    ],
+    "tmScope": "source.v",
+    "aceMode": "golang",
+    "codemirrorMode": "go",
+    "codemirrorMimeType": "text/x-go",
+    "languageId": 603371597,
+    "name": "V",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#148AA8",
     "extensions": [
       ".vcl"
@@ -8986,6 +9078,7 @@
       ".vht",
       ".vhw"
     ],
+    "tmScope": "source.vhdl",
     "aceMode": "vhdl",
     "codemirrorMode": "vhdl",
     "codemirrorMimeType": "text/x-vhdl",
@@ -8995,8 +9088,7 @@
       "vhdl"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -9005,6 +9097,7 @@
       ".vala",
       ".vapi"
     ],
+    "tmScope": "source.vala",
     "aceMode": "vala",
     "languageId": 386,
     "name": "Vala",
@@ -9012,8 +9105,7 @@
       "vala"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -9022,6 +9114,7 @@
       ".v",
       ".veo"
     ],
+    "tmScope": "source.verilog",
     "aceMode": "verilog",
     "codemirrorMode": "verilog",
     "codemirrorMimeType": "text/x-verilog",
@@ -9031,8 +9124,7 @@
       "verilog"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -9382,6 +9474,7 @@
   },
   {
     "type": "data",
+    "tmScope": "text.xml",
     "aceMode": "xml",
     "codemirrorMode": "xml",
     "codemirrorMimeType": "text/xml",
@@ -9439,7 +9532,6 @@
       ".odd",
       ".osm",
       ".pkgproj",
-      ".plist",
       ".pluginspec",
       ".proj",
       ".props",
@@ -9455,15 +9547,9 @@
       ".shproj",
       ".srdf",
       ".storyboard",
-      ".stTheme",
       ".sublime-snippet",
       ".targets",
-      ".tmCommand",
       ".tml",
-      ".tmLanguage",
-      ".tmPreferences",
-      ".tmSnippet",
-      ".tmTheme",
       ".ts",
       ".tsx",
       ".ui",
@@ -9511,8 +9597,31 @@
     "languageId": 399,
     "name": "XML",
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "group": "XML",
+    "extensions": [
+      ".plist",
+      ".stTheme",
+      ".tmCommand",
+      ".tmLanguage",
+      ".tmPreferences",
+      ".tmSnippet",
+      ".tmTheme"
+    ],
+    "tmScope": "text.xml.plist",
+    "aceMode": "xml",
+    "codemirrorMode": "xml",
+    "codemirrorMimeType": "text/xml",
+    "languageId": 75622871,
+    "name": "XML Property List",
+    "aliases": [
+      "xml property list"
+    ],
+    "wrap": "false",
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -9634,6 +9743,7 @@
     "extensions": [
       ".xtend"
     ],
+    "tmScope": "source.xtend",
     "aceMode": "text",
     "languageId": 406,
     "name": "Xtend",
@@ -9641,8 +9751,7 @@
       "xtend"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -9733,7 +9842,7 @@
       ".yacc",
       ".yy"
     ],
-    "tmScope": "source.bison",
+    "tmScope": "source.yacc",
     "aceMode": "text",
     "color": "#4B6C4B",
     "languageId": 409,
@@ -9950,6 +10059,7 @@
     "extensions": [
       ".mu"
     ],
+    "tmScope": "source.mupad",
     "aceMode": "text",
     "languageId": 416,
     "name": "mupad",
@@ -9957,8 +10067,7 @@
       "mupad"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "data",
@@ -10002,6 +10111,7 @@
     "extensions": [
       ".ooc"
     ],
+    "tmScope": "source.ooc",
     "aceMode": "text",
     "languageId": 418,
     "name": "ooc",
@@ -10009,8 +10119,7 @@
       "ooc"
     ],
     "wrap": "false",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
@@ -10041,13 +10150,13 @@
       ".rest.txt",
       ".rst.txt"
     ],
+    "tmScope": "text.restructuredtext",
     "aceMode": "text",
     "codemirrorMode": "rst",
     "codemirrorMimeType": "text/x-rst",
     "languageId": 419,
     "name": "reStructuredText",
-    "searchable": "true",
-    "tmScope": "none"
+    "searchable": "true"
   },
   {
     "type": "programming",
