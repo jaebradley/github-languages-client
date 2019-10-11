@@ -5452,6 +5452,23 @@
     "searchable": "true"
   },
   {
+    "type": "prose",
+    "extensions": [
+      ".muse"
+    ],
+    "tmScope": "none",
+    "aceMode": "text",
+    "wrap": true,
+    "languageId": 474864066,
+    "aliases": [
+      "amusewiki",
+      "emacs muse",
+      "muse"
+    ],
+    "name": "Muse",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "extensions": [
       ".myt"
@@ -6718,6 +6735,21 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "extensions": [
+      ".prisma"
+    ],
+    "tmScope": "source.prisma",
+    "aceMode": "text",
+    "languageId": 499933428,
+    "name": "Prisma",
+    "aliases": [
+      "prisma"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#0096D8",
     "extensions": [
@@ -6944,7 +6976,10 @@
       "python3"
     ],
     "aliases": [
+      "bazel",
+      "bzl",
       "rusthon",
+      "starlark",
       "python3",
       "python"
     ],
