@@ -7495,6 +7495,22 @@
     "searchable": "true"
   },
   {
+    "type": "markup",
+    "color": "#A71E49",
+    "aceMode": "html",
+    "extensions": [
+      ".riot"
+    ],
+    "tmScope": "text.html.riot",
+    "languageId": 878396783,
+    "name": "Riot",
+    "aliases": [
+      "riot"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "extensions": [
       ".robot"
