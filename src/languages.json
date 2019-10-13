@@ -10142,6 +10142,22 @@
   },
   {
     "type": "programming",
+    "color": "#926059",
+    "extensions": [
+      ".mrc"
+    ],
+    "tmScope": "source.mrc",
+    "aceMode": "text",
+    "languageId": 517654727,
+    "name": "mIRC Script",
+    "aliases": [
+      "mirc script"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#E22837",
     "extensions": [
       ".mcfunction"
