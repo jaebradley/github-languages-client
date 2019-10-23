@@ -1885,6 +1885,21 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "extensions": [
+      ".x"
+    ],
+    "aceMode": "text",
+    "tmScope": "none",
+    "languageId": 201049282,
+    "name": "DirectX 3D File",
+    "aliases": [
+      "directx 3d file"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#384d54",
     "tmScope": "source.dockerfile",
@@ -5438,6 +5453,10 @@
   {
     "type": "programming",
     "group": "Assembly",
+    "aliases": [
+      "m68k",
+      "motorola 68k assembly"
+    ],
     "extensions": [
       ".X68"
     ],
@@ -5445,9 +5464,6 @@
     "aceMode": "assembly_x86",
     "languageId": 477582706,
     "name": "Motorola 68K Assembly",
-    "aliases": [
-      "motorola 68k assembly"
-    ],
     "wrap": "false",
     "searchable": "true"
   },
@@ -8868,9 +8884,14 @@
       "go.mod",
       "go.sum",
       "keep.me",
+      "package.mask",
+      "package.use.mask",
+      "package.use.stable.mask",
       "read.me",
       "readme.1st",
-      "test.me"
+      "test.me",
+      "use.mask",
+      "use.stable.mask"
     ],
     "tmScope": "none",
     "aceMode": "text",
@@ -9027,6 +9048,7 @@
     "extensions": [
       ".anim",
       ".asset",
+      ".mask",
       ".mat",
       ".meta",
       ".prefab",
