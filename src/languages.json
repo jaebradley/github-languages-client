@@ -1885,6 +1885,21 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "extensions": [
+      ".x"
+    ],
+    "aceMode": "text",
+    "tmScope": "none",
+    "languageId": 201049282,
+    "name": "DirectX 3D File",
+    "aliases": [
+      "directx 3d file"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#384d54",
     "tmScope": "source.dockerfile",
@@ -5438,6 +5453,10 @@
   {
     "type": "programming",
     "group": "Assembly",
+    "aliases": [
+      "m68k",
+      "motorola 68k assembly"
+    ],
     "extensions": [
       ".X68"
     ],
@@ -5445,9 +5464,6 @@
     "aceMode": "assembly_x86",
     "languageId": 477582706,
     "name": "Motorola 68K Assembly",
-    "aliases": [
-      "motorola 68k assembly"
-    ],
     "wrap": "false",
     "searchable": "true"
   },
@@ -5456,7 +5472,7 @@
     "extensions": [
       ".muse"
     ],
-    "tmScope": "none",
+    "tmScope": "text.muse",
     "aceMode": "text",
     "wrap": true,
     "languageId": 474864066,
@@ -5511,6 +5527,23 @@
     "aliases": [
       "nl"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "group": "INI",
+    "aliases": [
+      "npmrc",
+      "npm config"
+    ],
+    "filenames": [
+      ".npmrc"
+    ],
+    "tmScope": "source.ini.npmrc",
+    "aceMode": "text",
+    "languageId": 685022663,
+    "name": "NPM Config",
     "wrap": "false",
     "searchable": "true"
   },
@@ -7338,6 +7371,25 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "group": "INI",
+    "aliases": [
+      "inputrc",
+      "readline",
+      "readline config"
+    ],
+    "filenames": [
+      ".inputrc",
+      "inputrc"
+    ],
+    "tmScope": "source.inputrc",
+    "aceMode": "text",
+    "languageId": 538732839,
+    "name": "Readline Config",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "group": "OCaml",
     "aceMode": "rust",
@@ -8868,9 +8920,14 @@
       "go.mod",
       "go.sum",
       "keep.me",
+      "package.mask",
+      "package.use.mask",
+      "package.use.stable.mask",
       "read.me",
       "readme.1st",
-      "test.me"
+      "test.me",
+      "use.mask",
+      "use.stable.mask"
     ],
     "tmScope": "none",
     "aceMode": "text",
@@ -9027,6 +9084,7 @@
     "extensions": [
       ".anim",
       ".asset",
+      ".mask",
       ".mat",
       ".meta",
       ".prefab",
@@ -9221,7 +9279,7 @@
       ".snippet",
       ".snippets"
     ],
-    "tmScope": "none",
+    "tmScope": "source.vim-snippet",
     "aceMode": "text",
     "languageId": 81265970,
     "name": "Vim Snippet",
@@ -9415,6 +9473,23 @@
     "aliases": [
       "webvtt"
     ],
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "group": "INI",
+    "aliases": [
+      "wgetrc",
+      "wget config"
+    ],
+    "filenames": [
+      ".wgetrc"
+    ],
+    "tmScope": "source.wgetrc",
+    "aceMode": "text",
+    "languageId": 668457123,
+    "name": "Wget Config",
+    "wrap": "false",
     "searchable": "true"
   },
   {
@@ -10068,6 +10143,24 @@
     "aliases": [
       "zimpl"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "group": "INI",
+    "aliases": [
+      "curlrc",
+      "curl config"
+    ],
+    "filenames": [
+      ".curlrc",
+      "_curlrc"
+    ],
+    "tmScope": "source.curlrc",
+    "aceMode": "text",
+    "languageId": 992375436,
+    "name": "cURL Config",
     "wrap": "false",
     "searchable": "true"
   },
