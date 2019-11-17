@@ -2528,7 +2528,7 @@
       ".for",
       ".fpp"
     ],
-    "tmScope": "source.fortran.modern",
+    "tmScope": "source.fortran",
     "aceMode": "text",
     "codemirrorMode": "fortran",
     "codemirrorMimeType": "text/x-fortran",
@@ -4136,6 +4136,7 @@
       ".js",
       "._js",
       ".bones",
+      ".cjs",
       ".es",
       ".es6",
       ".frag",
@@ -6794,6 +6795,21 @@
     "name": "Processing",
     "aliases": [
       "processing"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".pro"
+    ],
+    "tmScope": "none",
+    "aceMode": "text",
+    "languageId": 716513858,
+    "name": "Proguard",
+    "aliases": [
+      "proguard"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -9946,6 +9962,7 @@
       ".syntax",
       ".yaml",
       ".yaml-tmlanguage",
+      ".yaml.sed",
       ".yml.mysql"
     ],
     "filenames": [
