@@ -3445,6 +3445,7 @@
     "extensions": [
       ".hack",
       ".hh",
+      ".hhi",
       ".php"
     ],
     "tmScope": "source.hack",
@@ -7407,7 +7408,7 @@
   },
   {
     "type": "programming",
-    "group": "OCaml",
+    "color": "#ff5847",
     "aceMode": "rust",
     "codemirrorMode": "rust",
     "codemirrorMimeType": "text/x-rustsrc",
