@@ -4951,6 +4951,7 @@
   },
   {
     "type": "programming",
+    "color": "#5EC8DB",
     "extensions": [
       ".mlir"
     ],
