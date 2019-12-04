@@ -3557,7 +3557,8 @@
   {
     "type": "programming",
     "extensions": [
-      ".q"
+      ".q",
+      ".hql"
     ],
     "color": "#dce200",
     "tmScope": "source.hql",
@@ -7738,6 +7739,7 @@
       ".podspec",
       ".rabl",
       ".rake",
+      ".rbi",
       ".rbuild",
       ".rbw",
       ".rbx",
