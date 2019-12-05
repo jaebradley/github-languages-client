@@ -2985,6 +2985,7 @@
       ".gp",
       ".gnu",
       ".gnuplot",
+      ".p",
       ".plot",
       ".plt"
     ],
@@ -3557,7 +3558,8 @@
   {
     "type": "programming",
     "extensions": [
-      ".q"
+      ".q",
+      ".hql"
     ],
     "color": "#dce200",
     "tmScope": "source.hql",
@@ -7738,6 +7740,7 @@
       ".podspec",
       ".rabl",
       ".rake",
+      ".rbi",
       ".rbuild",
       ".rbw",
       ".rbx",
@@ -9208,6 +9211,49 @@
   },
   {
     "type": "programming",
+    "color": "#867db1",
+    "extensions": [
+      ".bas",
+      ".cls",
+      ".frm",
+      ".frx",
+      ".vba"
+    ],
+    "tmScope": "source.vbnet",
+    "aliases": [
+      "vb6",
+      "visual basic 6",
+      "visual basic for applications",
+      "vba"
+    ],
+    "aceMode": "text",
+    "codemirrorMode": "vb",
+    "codemirrorMimeType": "text/x-vb",
+    "languageId": 399230729,
+    "name": "VBA",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#15dcdc",
+    "extensions": [
+      ".vbs"
+    ],
+    "tmScope": "source.vbnet",
+    "aceMode": "text",
+    "codemirrorMode": "vbscript",
+    "codemirrorMimeType": "text/vbscript",
+    "languageId": 408016005,
+    "name": "VBScript",
+    "aliases": [
+      "vbscript"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#148AA8",
     "extensions": [
       ".vcl"
@@ -9339,25 +9385,21 @@
     "color": "#945db7",
     "extensions": [
       ".vb",
-      ".bas",
-      ".cls",
-      ".frm",
-      ".frx",
-      ".vba",
-      ".vbhtml",
-      ".vbs"
+      ".vbhtml"
+    ],
+    "aliases": [
+      "visual basic",
+      "vbnet",
+      "vb .net",
+      "vb.net",
+      "visual basic net"
     ],
     "tmScope": "source.vbnet",
-    "aliases": [
-      "vb.net",
-      "vbnet",
-      "visual basic"
-    ],
     "aceMode": "text",
     "codemirrorMode": "vb",
     "codemirrorMimeType": "text/x-vb",
     "languageId": 389,
-    "name": "Visual Basic",
+    "name": "Visual Basic NET",
     "wrap": "false",
     "searchable": "true"
   },
@@ -10195,6 +10237,29 @@
     "name": "desktop",
     "aliases": [
       "desktop"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".dircolors"
+    ],
+    "filenames": [
+      ".dir_colors",
+      ".dircolors",
+      "DIR_COLORS",
+      "_dir_colors",
+      "_dircolors",
+      "dir_colors"
+    ],
+    "tmScope": "source.dircolors",
+    "aceMode": "text",
+    "languageId": 691605112,
+    "name": "dircolors",
+    "aliases": [
+      "dircolors"
     ],
     "wrap": "false",
     "searchable": "true"
