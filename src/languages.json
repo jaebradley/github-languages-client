@@ -2445,6 +2445,22 @@
   },
   {
     "type": "programming",
+    "color": "#c37240",
+    "extensions": [
+      ".dsp"
+    ],
+    "tmScope": "source.faust",
+    "aceMode": "text",
+    "languageId": 622529198,
+    "name": "Faust",
+    "aliases": [
+      "faust"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "extensions": [
       ".f"
     ],
@@ -5301,6 +5317,21 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "extensions": [
+      ".dsp"
+    ],
+    "tmScope": "none",
+    "aceMode": "text",
+    "languageId": 800983837,
+    "name": "Microsoft Developer Studio Project",
+    "aliases": [
+      "microsoft developer studio project"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "searchable": "true",
     "extensions": [
@@ -6503,38 +6534,6 @@
     "searchable": "true"
   },
   {
-    "type": "programming",
-    "color": "#0000fb",
-    "extensions": [
-      ".6pl",
-      ".6pm",
-      ".nqp",
-      ".p6",
-      ".p6l",
-      ".p6m",
-      ".pl",
-      ".pl6",
-      ".pm",
-      ".pm6",
-      ".t"
-    ],
-    "interpreters": [
-      "perl6"
-    ],
-    "aliases": [
-      "perl6",
-      "perl 6"
-    ],
-    "tmScope": "source.perl6fe",
-    "aceMode": "perl",
-    "codemirrorMode": "perl",
-    "codemirrorMimeType": "text/x-perl",
-    "languageId": 283,
-    "name": "Perl 6",
-    "wrap": "false",
-    "searchable": "true"
-  },
-  {
     "type": "markup",
     "group": "Roff",
     "tmScope": "source.pic",
@@ -6698,7 +6697,8 @@
     "tmScope": "source.postcss",
     "group": "CSS",
     "extensions": [
-      ".pcss"
+      ".pcss",
+      ".postcss"
     ],
     "aceMode": "text",
     "languageId": 262764437,
@@ -7355,6 +7355,41 @@
     "aceMode": "text",
     "languageId": 317,
     "name": "Ragel",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#0000fb",
+    "extensions": [
+      ".6pl",
+      ".6pm",
+      ".nqp",
+      ".p6",
+      ".p6l",
+      ".p6m",
+      ".pl",
+      ".pl6",
+      ".pm",
+      ".pm6",
+      ".t"
+    ],
+    "interpreters": [
+      "perl6",
+      "raku",
+      "rakudo"
+    ],
+    "aliases": [
+      "perl6",
+      "perl-6",
+      "raku"
+    ],
+    "tmScope": "source.perl6fe",
+    "aceMode": "perl",
+    "codemirrorMode": "perl",
+    "codemirrorMimeType": "text/x-perl",
+    "languageId": 283,
+    "name": "Raku",
     "wrap": "false",
     "searchable": "true"
   },
