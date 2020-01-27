@@ -4866,6 +4866,7 @@
       ".p8",
       ".pd_lua",
       ".rbxs",
+      ".rockspec",
       ".wlua"
     ],
     "interpreters": [
@@ -7001,7 +7002,6 @@
     "color": "#3572A5",
     "extensions": [
       ".py",
-      ".bzl",
       ".cgi",
       ".fcgi",
       ".gyp",
@@ -7022,14 +7022,10 @@
     ],
     "filenames": [
       ".gclient",
-      "BUCK",
-      "BUILD",
-      "BUILD.bazel",
       "DEPS",
       "SConscript",
       "SConstruct",
       "Snakefile",
-      "WORKSPACE",
       "wscript"
     ],
     "interpreters": [
@@ -7038,11 +7034,8 @@
       "python3"
     ],
     "aliases": [
-      "bazel",
-      "bzl",
-      "rusthon",
-      "starlark",
       "python3",
+      "rusthon",
       "python"
     ],
     "languageId": 303,
@@ -8584,6 +8577,32 @@
     "codemirrorMimeType": "text/x-ocaml",
     "languageId": 357,
     "name": "Standard ML",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "tmScope": "source.python",
+    "aceMode": "python",
+    "codemirrorMode": "python",
+    "codemirrorMimeType": "text/x-python",
+    "color": "#76d275",
+    "extensions": [
+      ".bzl"
+    ],
+    "filenames": [
+      "BUCK",
+      "BUILD",
+      "BUILD.bazel",
+      "WORKSPACE"
+    ],
+    "aliases": [
+      "bazel",
+      "bzl",
+      "starlark"
+    ],
+    "languageId": 960266174,
+    "name": "Starlark",
     "wrap": "false",
     "searchable": "true"
   },
