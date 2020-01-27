@@ -2721,7 +2721,9 @@
       ".fshader",
       ".geo",
       ".geom",
+      ".glslf",
       ".glslv",
+      ".gs",
       ".gshader",
       ".shader",
       ".tesc",
@@ -4183,8 +4185,10 @@
     "interpreters": [
       "chakra",
       "d8",
+      "gjs",
       "js",
       "node",
+      "qjs",
       "rhino",
       "v8",
       "v8-shell"
@@ -5922,6 +5926,21 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "extensions": [
+      ".odin"
+    ],
+    "tmScope": "source.odin-ehr",
+    "aceMode": "text",
+    "languageId": 985227236,
+    "name": "Object Data Instance Notation",
+    "aliases": [
+      "object data instance notation"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "extensions": [
       ".cls"
@@ -5997,6 +6016,24 @@
     "aceMode": "text",
     "languageId": 259,
     "name": "ObjectiveJ",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#60AFFE",
+    "aliases": [
+      "odinlang",
+      "odin-lang",
+      "odin"
+    ],
+    "extensions": [
+      ".odin"
+    ],
+    "tmScope": "source.odin",
+    "aceMode": "text",
+    "languageId": 889244082,
+    "name": "Odin",
     "wrap": "false",
     "searchable": "true"
   },
