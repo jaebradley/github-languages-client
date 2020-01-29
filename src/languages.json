@@ -7362,6 +7362,7 @@
       ".rnh",
       ".rno"
     ],
+    "wrap": true,
     "tmScope": "text.runoff",
     "aceMode": "text",
     "languageId": 315,
@@ -7369,7 +7370,6 @@
     "aliases": [
       "runoff"
     ],
-    "wrap": "false",
     "searchable": "true"
   },
   {
@@ -7738,12 +7738,12 @@
       "troff",
       "roff"
     ],
+    "wrap": true,
     "aceMode": "text",
     "codemirrorMode": "troff",
     "codemirrorMimeType": "text/troff",
     "languageId": 141,
     "name": "Roff",
-    "wrap": "false",
     "searchable": "true"
   },
   {
@@ -7771,6 +7771,7 @@
       ".man",
       ".mdoc"
     ],
+    "wrap": true,
     "tmScope": "text.roff",
     "aceMode": "text",
     "codemirrorMode": "troff",
@@ -7780,7 +7781,6 @@
     "aliases": [
       "roff manpage"
     ],
-    "wrap": "false",
     "searchable": "true"
   },
   {
