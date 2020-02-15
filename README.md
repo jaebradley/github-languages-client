@@ -2,9 +2,11 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/github-languages-client.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/jaebradley/github-languages-client.svg?branch=master)](https://travis-ci.org/jaebradley/github-languages-client)
-[![Codecov](https://img.shields.io/codecov/c/github/jaebradley/github-languages-client.svg)](https://codecov.io/gh/jaebradley/github-languages-client)
-[![npm](https://img.shields.io/npm/dt/github-languages-client.svg)](github-https://www.npmjs.com/package/github-languages-client-client)
+[![codecov](https://codecov.io/gh/jaebradley/github-languages-client/branch/master/graph/badge.svg)](https://codecov.io/gh/jaebradley/github-languages-client)
 [![npm](https://img.shields.io/npm/v/github-languages-client.svg)](https://www.npmjs.com/package/github-languages-client)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/github-languages-client)
+[![npm-total-downloads](https://img.shields.io/npm/dt/github-languages-client.svg)](https://www.npmjs.com/package/github-languages-client)
+![GitHub](https://img.shields.io/github/license/jaebradley/github-languages-client)
 
 A `NodeJS` client to get languages GitHub knows about for [`Advanced Search`](https://github.com/search/advanced), for example.
 
