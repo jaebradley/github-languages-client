@@ -18,6 +18,7 @@
     }
   },
   "ignore": [
+    "**/*.test.js",
     "node_modules/**"
   ]
 }
