@@ -1372,6 +1372,23 @@
   },
   {
     "type": "programming",
+    "extensions": [
+      ".ql",
+      ".qll"
+    ],
+    "tmScope": "source.ql",
+    "aceMode": "text",
+    "languageId": 424259634,
+    "aliases": [
+      "ql",
+      "codeql"
+    ],
+    "name": "CodeQL",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "tmScope": "source.coffee",
     "aceMode": "coffee",
     "codemirrorMode": "coffeescript",
