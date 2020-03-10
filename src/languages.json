@@ -4008,6 +4008,7 @@
       "json with comments"
     ],
     "extensions": [
+      ".jsonc",
       ".sublime-build",
       ".sublime-commands",
       ".sublime-completions",
@@ -4904,6 +4905,9 @@
       ".rbxs",
       ".rockspec",
       ".wlua"
+    ],
+    "filenames": [
+      ".luacheckrc"
     ],
     "interpreters": [
       "lua"
@@ -6172,6 +6176,22 @@
   },
   {
     "type": "programming",
+    "extensions": [
+      ".qasm"
+    ],
+    "color": "#AA70FF",
+    "tmScope": "source.qasm",
+    "aceMode": "text",
+    "languageId": 153739399,
+    "name": "OpenQASM",
+    "aliases": [
+      "openqasm"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "group": "Shell",
     "aliases": [
       "openrc",
@@ -6695,6 +6715,23 @@
     "name": "Pike",
     "aliases": [
       "pike"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".puml",
+      ".iuml",
+      ".plantuml"
+    ],
+    "tmScope": "source.wsd",
+    "aceMode": "text",
+    "languageId": 833504686,
+    "name": "PlantUML",
+    "aliases": [
+      "plantuml"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -10166,7 +10203,8 @@
       ".clang-format",
       ".clang-tidy",
       ".gemrc",
-      "glide.lock"
+      "glide.lock",
+      "yarn.lock"
     ],
     "aceMode": "yaml",
     "codemirrorMode": "yaml",
