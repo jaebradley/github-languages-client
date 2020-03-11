@@ -5585,6 +5585,22 @@
   },
   {
     "type": "programming",
+    "extensions": [
+      ".nasl",
+      ".inc"
+    ],
+    "tmScope": "source.nasl",
+    "aceMode": "text",
+    "languageId": 171666519,
+    "name": "NASL",
+    "aliases": [
+      "nasl"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#28431f",
     "extensions": [
       ".ncl"
