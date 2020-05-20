@@ -3837,7 +3837,8 @@
   {
     "type": "programming",
     "extensions": [
-      ".iss"
+      ".iss",
+      ".isl"
     ],
     "tmScope": "source.inno",
     "aceMode": "text",
@@ -5095,6 +5096,26 @@
     "aliases": [
       "muf"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "extensions": [
+      ".m2"
+    ],
+    "aliases": [
+      "m2",
+      "macaulay2"
+    ],
+    "interpreters": [
+      "M2"
+    ],
+    "aceMode": "text",
+    "tmScope": "source.macaulay2",
+    "color": "#d8ffff",
+    "languageId": 34167825,
+    "name": "Macaulay2",
     "wrap": "false",
     "searchable": "true"
   },
