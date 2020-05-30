@@ -2585,15 +2585,12 @@
     "searchable": "true"
   },
   {
+    "group": "Fortran",
     "type": "programming",
     "color": "#4d41b1",
     "extensions": [
-      ".f90",
       ".f",
-      ".f03",
-      ".f08",
       ".f77",
-      ".f95",
       ".for",
       ".fpp"
     ],
@@ -2605,6 +2602,27 @@
     "name": "Fortran",
     "aliases": [
       "fortran"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "group": "Fortran",
+    "type": "programming",
+    "extensions": [
+      ".f90",
+      ".f03",
+      ".f08",
+      ".f95"
+    ],
+    "tmScope": "source.fortran.modern",
+    "aceMode": "text",
+    "codemirrorMode": "fortran",
+    "codemirrorMimeType": "text/x-fortran",
+    "languageId": 761352333,
+    "name": "Fortran Free Form",
+    "aliases": [
+      "fortran free form"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -2756,6 +2774,21 @@
     "name": "GDScript",
     "aliases": [
       "gdscript"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "aceMode": "text",
+    "extensions": [
+      ".ged"
+    ],
+    "tmScope": "source.gedcom",
+    "languageId": 459577965,
+    "name": "GEDCOM",
+    "aliases": [
+      "gedcom"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -5652,6 +5685,23 @@
     "aliases": [
       "ncl"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".neon"
+    ],
+    "tmScope": "source.neon",
+    "aceMode": "text",
+    "aliases": [
+      "nette object notation",
+      "ne-on",
+      "neon"
+    ],
+    "languageId": 481192983,
+    "name": "NEON",
     "wrap": "false",
     "searchable": "true"
   },
