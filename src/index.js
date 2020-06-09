@@ -36,7 +36,7 @@ class GitHubLanguagesClient {
   }
 
   search(searchTerm) {
-    return this.fuse.search(searchTerm);
+    return this.fuse.search(searchTerm).map((result) => result.item);
   }
 }
 

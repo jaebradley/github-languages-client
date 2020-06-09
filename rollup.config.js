@@ -1,9 +1,9 @@
-import babel from 'rollup-plugin-babel';
+import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import localResolve from 'rollup-plugin-local-resolve';
 import filesize from 'rollup-plugin-filesize';
-import minify from 'rollup-plugin-babel-minify';
+import { terser } from 'rollup-plugin-terser';
 import json from '@rollup/plugin-json';
 
 import pkg from './package.json';
@@ -32,7 +32,7 @@ const config = {
       preferConst: true,
     }),
     babel({ exclude: 'node_modules/**' }),
-    minify(),
+    terser(),
     localResolve(),
     resolve(),
     commonjs(),
