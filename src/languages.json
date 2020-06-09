@@ -2662,6 +2662,22 @@
   },
   {
     "type": "programming",
+    "color": "#5f021f",
+    "extensions": [
+      ".fut"
+    ],
+    "tmScope": "source.futhark",
+    "aceMode": "text",
+    "languageId": 97358117,
+    "name": "Futhark",
+    "aliases": [
+      "futhark"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#D08CF2",
     "extensions": [
       ".g",
@@ -8567,6 +8583,23 @@
     "name": "Shen",
     "aliases": [
       "shen"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "tmScope": "source.sieve",
+    "aceMode": "text",
+    "extensions": [
+      ".sieve"
+    ],
+    "codemirrorMode": "sieve",
+    "codemirrorMimeType": "application/sieve",
+    "languageId": 208976687,
+    "name": "Sieve",
+    "aliases": [
+      "sieve"
     ],
     "wrap": "false",
     "searchable": "true"
