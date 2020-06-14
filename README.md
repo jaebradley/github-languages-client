@@ -1,7 +1,6 @@
 # GitHub Languages Client
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/github-languages-client.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/jaebradley/github-languages-client.svg?branch=master)](https://travis-ci.org/jaebradley/github-languages-client)
+![GitHub Languages Client](https://github.com/jaebradley/github-languages-client/workflows/GitHub%20Languages%20Client/badge.svg)
 [![codecov](https://codecov.io/gh/jaebradley/github-languages-client/branch/master/graph/badge.svg)](https://codecov.io/gh/jaebradley/github-languages-client)
 [![npm](https://img.shields.io/npm/v/github-languages-client.svg)](https://www.npmjs.com/package/github-languages-client)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/github-languages-client)
