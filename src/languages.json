@@ -889,7 +889,8 @@
     "extensions": [
       ".cs",
       ".cake",
-      ".csx"
+      ".csx",
+      ".linq"
     ],
     "languageId": 42,
     "name": "C#",
