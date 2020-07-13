@@ -71,6 +71,6 @@
     "utf-8-validate": "^5.0.2"
   },
   "dependencies": {
-    "fuse.js": "^6.0.4"
+    "fuse.js": "^6.1.0"
   }
 }
