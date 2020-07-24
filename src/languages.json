@@ -4448,6 +4448,25 @@
     "searchable": "true"
   },
   {
+    "type": "programming",
+    "aliases": [
+      "ksy",
+      "kaitai struct"
+    ],
+    "aceMode": "yaml",
+    "codemirrorMode": "yaml",
+    "codemirrorMimeType": "text/x-yaml",
+    "color": "#773b37",
+    "extensions": [
+      ".ksy"
+    ],
+    "tmScope": "source.yaml",
+    "languageId": 818804755,
+    "name": "Kaitai Struct",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "data",
     "aliases": [
       "pcbnew",
@@ -7304,6 +7323,23 @@
   },
   {
     "type": "programming",
+    "extensions": [
+      ".qs"
+    ],
+    "aliases": [
+      "qsharp",
+      "q#"
+    ],
+    "color": "#fed659",
+    "aceMode": "text",
+    "tmScope": "source.qsharp",
+    "languageId": 697448245,
+    "name": "Q#",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#44a51c",
     "extensions": [
       ".qml",
@@ -7334,6 +7370,28 @@
     "name": "QMake",
     "aliases": [
       "qmake"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "aceMode": "javascript",
+    "codemirrorMode": "javascript",
+    "codemirrorMimeType": "text/javascript",
+    "extensions": [
+      ".qs"
+    ],
+    "filenames": [
+      "installscript.qs",
+      "toolchain_installscript.qs"
+    ],
+    "color": "#00b841",
+    "tmScope": "source.js",
+    "languageId": 558193693,
+    "name": "Qt Script",
+    "aliases": [
+      "qt script"
     ],
     "wrap": "false",
     "searchable": "true"
