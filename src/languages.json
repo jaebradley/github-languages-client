@@ -156,6 +156,22 @@
     "searchable": "true"
   },
   {
+    "type": "programming",
+    "aceMode": "text",
+    "extensions": [
+      ".asl",
+      ".dsl"
+    ],
+    "tmScope": "source.asl",
+    "languageId": 124996147,
+    "name": "ASL",
+    "aliases": [
+      "asl"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "data",
     "extensions": [
       ".asn",
@@ -4101,7 +4117,8 @@
       ".jslintrc",
       "jsconfig.json",
       "language-configuration.json",
-      "tsconfig.json"
+      "tsconfig.json",
+      "tslint.json"
     ],
     "languageId": 423,
     "name": "JSON with Comments",
@@ -8553,6 +8570,7 @@
       ".bats",
       ".cgi",
       ".command",
+      ".env",
       ".fcgi",
       ".ksh",
       ".sh.in",
@@ -8567,6 +8585,9 @@
       ".bash_profile",
       ".bashrc",
       ".cshrc",
+      ".env",
+      ".env.example",
+      ".flaskenv",
       ".login",
       ".profile",
       ".zlogin",
@@ -9529,6 +9550,7 @@
   },
   {
     "type": "programming",
+    "color": "#9933cc",
     "extensions": [
       ".uno"
     ],
