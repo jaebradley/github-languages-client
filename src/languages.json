@@ -622,6 +622,21 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "extensions": [
+      ".avdl"
+    ],
+    "tmScope": "source.avro",
+    "aceMode": "text",
+    "languageId": 785497837,
+    "name": "Avro IDL",
+    "aliases": [
+      "avro idl"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "extensions": [
       ".awk",
@@ -2992,7 +3007,8 @@
       ".gtl",
       ".gto",
       ".gtp",
-      ".gts"
+      ".gts",
+      ".sol"
     ],
     "interpreters": [
       "gerbv",
@@ -4311,6 +4327,7 @@
       "gjs",
       "js",
       "node",
+      "nodejs",
       "qjs",
       "rhino",
       "v8",
@@ -4880,7 +4897,8 @@
       "literate coffeescript"
     ],
     "extensions": [
-      ".litcoffee"
+      ".litcoffee",
+      ".coffee.md"
     ],
     "languageId": 206,
     "name": "Literate CoffeeScript",
@@ -5944,6 +5962,7 @@
   {
     "type": "data",
     "extensions": [
+      ".nginx",
       ".nginxconf",
       ".vhost"
     ],
@@ -8085,6 +8104,7 @@
     "filenames": [
       ".irbrc",
       ".pryrc",
+      ".simplecov",
       "Appraisals",
       "Berksfile",
       "Brewfile",
@@ -8792,6 +8812,9 @@
     "color": "#AA6746",
     "aceMode": "text",
     "tmScope": "source.solidity",
+    "extensions": [
+      ".sol"
+    ],
     "languageId": 237469032,
     "name": "Solidity",
     "aliases": [
@@ -8875,7 +8898,7 @@
       "standard ml"
     ],
     "extensions": [
-      ".ML",
+      ".ml",
       ".fun",
       ".sig",
       ".sml"
@@ -9722,6 +9745,22 @@
     "aliases": [
       "verilog"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "prose",
+    "aliases": [
+      "vimhelp",
+      "vim help file"
+    ],
+    "extensions": [
+      ".txt"
+    ],
+    "tmScope": "text.vim-help",
+    "aceMode": "text",
+    "languageId": 508563686,
+    "name": "Vim Help File",
     "wrap": "false",
     "searchable": "true"
   },
