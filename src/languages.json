@@ -84,6 +84,22 @@
   },
   {
     "type": "programming",
+    "color": "#3AA2B5",
+    "extensions": [
+      ".al"
+    ],
+    "tmScope": "source.al",
+    "aceMode": "text",
+    "languageId": 658971832,
+    "name": "AL Code",
+    "aliases": [
+      "al code"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#E6EFBB",
     "extensions": [
       ".ampl",
@@ -191,15 +207,14 @@
   },
   {
     "type": "programming",
-    "color": "#6a40fd",
     "tmScope": "text.html.asp",
+    "color": "#9400ff",
     "aliases": [
       "aspx",
       "aspx-vb",
-      "asp"
+      "aspnet"
     ],
     "extensions": [
-      ".asp",
       ".asax",
       ".ascx",
       ".ashx",
@@ -210,8 +225,8 @@
     "aceMode": "text",
     "codemirrorMode": "htmlembedded",
     "codemirrorMimeType": "application/x-aspx",
-    "languageId": 8,
-    "name": "ASP",
+    "languageId": 564186416,
+    "name": "ASPNET",
     "wrap": "false",
     "searchable": "true"
   },
@@ -425,6 +440,7 @@
   },
   {
     "type": "programming",
+    "color": "#1797c0",
     "extensions": [
       ".cls"
     ],
@@ -550,7 +566,7 @@
   },
   {
     "type": "programming",
-    "color": "#4a0c0c",
+    "color": "#ff0000",
     "extensions": [
       ".asy"
     ],
@@ -765,7 +781,7 @@
   },
   {
     "type": "markup",
-    "group": "HTML",
+    "color": "#f7523f",
     "extensions": [
       ".blade",
       ".blade.php"
@@ -1073,6 +1089,7 @@
   },
   {
     "type": "data",
+    "color": "#244776",
     "tmScope": "source.coffee",
     "aceMode": "coffee",
     "codemirrorMode": "coffeescript",
@@ -1283,6 +1300,23 @@
     "aliases": [
       "clarion"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#6a40fd",
+    "tmScope": "text.html.asp",
+    "aliases": [
+      "asp",
+      "classic asp"
+    ],
+    "extensions": [
+      ".asp"
+    ],
+    "aceMode": "text",
+    "languageId": 8,
+    "name": "Classic ASP",
     "wrap": "false",
     "searchable": "true"
   },
@@ -2117,7 +2151,9 @@
     "type": "markup",
     "group": "HTML",
     "extensions": [
-      ".ejs"
+      ".ejs",
+      ".ect",
+      ".jst"
     ],
     "tmScope": "text.html.js",
     "aceMode": "ejs",
@@ -2255,7 +2291,7 @@
   },
   {
     "type": "programming",
-    "color": "#946d57",
+    "color": "#4d6977",
     "extensions": [
       ".e"
     ],
@@ -3041,7 +3077,8 @@
   {
     "type": "programming",
     "extensions": [
-      ".feature"
+      ".feature",
+      ".story"
     ],
     "tmScope": "text.gherkin.feature",
     "aliases": [
@@ -3248,7 +3285,7 @@
     "extensions": [
       ".gf"
     ],
-    "color": "#79aa7a",
+    "color": "#ff0000",
     "tmScope": "source.gf",
     "aceMode": "haskell",
     "codemirrorMode": "haskell",
@@ -3375,6 +3412,7 @@
     "type": "programming",
     "extensions": [
       ".hcl",
+      ".nomad",
       ".tf",
       ".tfvars",
       ".workflow"
@@ -3442,8 +3480,8 @@
     "group": "HTML",
     "extensions": [
       ".jinja",
+      ".j2",
       ".jinja2",
-      ".mustache",
       ".njk"
     ],
     "aliases": [
@@ -3616,8 +3654,8 @@
     "searchable": "true"
   },
   {
-    "group": "HTML",
     "type": "markup",
+    "color": "#ece2a9",
     "extensions": [
       ".haml",
       ".haml.deface"
@@ -3636,7 +3674,7 @@
   },
   {
     "type": "markup",
-    "group": "HTML",
+    "color": "#f7931e",
     "aliases": [
       "hbs",
       "htmlbars",
@@ -4720,7 +4758,7 @@
   },
   {
     "type": "markup",
-    "group": "HTML",
+    "color": "#f2a542",
     "extensions": [
       ".latte"
     ],
@@ -4754,7 +4792,7 @@
   },
   {
     "type": "markup",
-    "group": "CSS",
+    "color": "#1d365d",
     "extensions": [
       ".less"
     ],
@@ -4780,6 +4818,10 @@
     "extensions": [
       ".l",
       ".lex"
+    ],
+    "filenames": [
+      "Lexer.x",
+      "lexer.x"
     ],
     "tmScope": "source.lex",
     "aceMode": "text",
@@ -5306,6 +5348,7 @@
   },
   {
     "type": "prose",
+    "color": "#083fa1",
     "aliases": [
       "pandoc",
       "markdown"
@@ -5335,8 +5378,8 @@
     "searchable": "true"
   },
   {
-    "group": "HTML",
     "type": "markup",
+    "color": "#42bff2",
     "tmScope": "text.marko",
     "extensions": [
       ".marko"
@@ -5713,6 +5756,24 @@
       "muse"
     ],
     "name": "Muse",
+    "searchable": "true"
+  },
+  {
+    "type": "markup",
+    "group": "HTML",
+    "extensions": [
+      ".mustache"
+    ],
+    "tmScope": "text.html.smarty",
+    "aceMode": "smarty",
+    "codemirrorMode": "smarty",
+    "codemirrorMimeType": "text/x-smarty",
+    "languageId": 638334590,
+    "name": "Mustache",
+    "aliases": [
+      "mustache"
+    ],
+    "wrap": "false",
     "searchable": "true"
   },
   {
@@ -7070,6 +7131,7 @@
   },
   {
     "type": "data",
+    "color": "#0c344b",
     "extensions": [
       ".prisma"
     ],
@@ -7191,8 +7253,8 @@
     "searchable": "true"
   },
   {
-    "group": "HTML",
     "type": "markup",
+    "color": "#a86454",
     "extensions": [
       ".jade",
       ".pug"
@@ -8170,8 +8232,8 @@
   },
   {
     "type": "markup",
+    "color": "#c6538c",
     "tmScope": "source.css.scss",
-    "group": "CSS",
     "aceMode": "scss",
     "codemirrorMode": "css",
     "codemirrorMimeType": "text/x-scss",
@@ -8349,6 +8411,7 @@
   },
   {
     "type": "data",
+    "color": "#ff9900",
     "extensions": [
       ".svg"
     ],
@@ -8383,7 +8446,6 @@
   },
   {
     "type": "programming",
-    "group": "Python",
     "extensions": [
       ".sage",
       ".sagews"
@@ -8422,8 +8484,8 @@
   },
   {
     "type": "markup",
+    "color": "#a53b70",
     "tmScope": "source.sass",
-    "group": "CSS",
     "extensions": [
       ".sass"
     ],
@@ -8721,8 +8783,8 @@
     "searchable": "true"
   },
   {
-    "group": "HTML",
     "type": "markup",
+    "color": "#2b2b2b",
     "extensions": [
       ".slim"
     ],
@@ -8825,7 +8887,7 @@
   },
   {
     "type": "programming",
-    "color": "#5c7611",
+    "color": "#f69e1d",
     "aliases": [
       "sourcemod",
       "sourcepawn"
@@ -8962,7 +9024,7 @@
   },
   {
     "type": "markup",
-    "group": "CSS",
+    "color": "#ff6347",
     "extensions": [
       ".styl"
     ],
@@ -9030,8 +9092,8 @@
   },
   {
     "type": "markup",
+    "color": "#ff3e00",
     "tmScope": "source.svelte",
-    "group": "HTML",
     "aceMode": "html",
     "codemirrorMode": "htmlmixed",
     "codemirrorMimeType": "text/html",
@@ -9151,6 +9213,21 @@
     "name": "TSQL",
     "aliases": [
       "tsql"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "aceMode": "text",
+    "tmScope": "source.generic-db",
+    "extensions": [
+      ".tsv"
+    ],
+    "languageId": 1035892117,
+    "name": "TSV",
+    "aliases": [
+      "tsv"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -9442,7 +9519,7 @@
   },
   {
     "type": "markup",
-    "group": "HTML",
+    "color": "#c1d026",
     "extensions": [
       ".twig"
     ],
@@ -9611,7 +9688,7 @@
   },
   {
     "type": "programming",
-    "color": "#5d87bd",
+    "color": "#4f87c4",
     "aliases": [
       "vlang",
       "v"
@@ -10185,6 +10262,7 @@
       ".gml",
       ".gmx",
       ".grxml",
+      ".gst",
       ".iml",
       ".ivy",
       ".jelly",
@@ -10427,6 +10505,7 @@
   },
   {
     "type": "data",
+    "color": "#cb171e",
     "tmScope": "source.yaml",
     "aliases": [
       "yml",
@@ -10755,7 +10834,7 @@
   },
   {
     "type": "programming",
-    "color": "#926059",
+    "color": "#3d57c3",
     "extensions": [
       ".mrc"
     ],
