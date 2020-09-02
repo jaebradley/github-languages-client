@@ -9878,6 +9878,7 @@
       ".vmb"
     ],
     "filenames": [
+      ".exrc",
       ".gvimrc",
       ".nvimrc",
       ".vimrc",
