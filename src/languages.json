@@ -91,9 +91,9 @@
     "tmScope": "source.al",
     "aceMode": "text",
     "languageId": 658971832,
-    "name": "AL Code",
+    "name": "AL",
     "aliases": [
-      "al code"
+      "al"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -458,6 +458,7 @@
   },
   {
     "type": "programming",
+    "color": "#0B3D91",
     "group": "Assembly",
     "extensions": [
       ".agc"
@@ -750,6 +751,7 @@
   },
   {
     "type": "programming",
+    "color": "#6A463F",
     "group": "Yacc",
     "tmScope": "source.yacc",
     "extensions": [
@@ -1505,6 +1507,7 @@
   },
   {
     "type": "programming",
+    "color": "#ed2cd6",
     "group": "ColdFusion",
     "aceMode": "coldfusion",
     "aliases": [
@@ -2149,6 +2152,7 @@
   },
   {
     "type": "markup",
+    "color": "#a91e50",
     "group": "HTML",
     "extensions": [
       ".ejs",
@@ -3312,6 +3316,7 @@
   },
   {
     "type": "data",
+    "color": "#e10098",
     "extensions": [
       ".graphql",
       ".gql",
@@ -3716,7 +3721,9 @@
       ".hsc"
     ],
     "interpreters": [
-      "runhaskell"
+      "runghc",
+      "runhaskell",
+      "runhugs"
     ],
     "tmScope": "source.haskell",
     "aceMode": "haskell",
@@ -4083,6 +4090,7 @@
   },
   {
     "type": "programming",
+    "color": "#DBCA00",
     "group": "Lex",
     "extensions": [
       ".flex",
@@ -6141,6 +6149,7 @@
   },
   {
     "type": "programming",
+    "color": "#9C8AF9",
     "group": "Python",
     "extensions": [
       ".numpy",
@@ -9576,6 +9585,7 @@
   },
   {
     "type": "programming",
+    "color": "#4e3617",
     "group": "C",
     "aceMode": "c_cpp",
     "codemirrorMode": "clike",
