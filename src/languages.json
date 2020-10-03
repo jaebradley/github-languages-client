@@ -7834,9 +7834,6 @@
       ".re",
       ".rei"
     ],
-    "interpreters": [
-      "ocaml"
-    ],
     "tmScope": "source.reason",
     "languageId": 869538413,
     "name": "Reason",
