@@ -4745,6 +4745,25 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "group": "EBNF",
+    "color": "#0b130f",
+    "extensions": [
+      ".lark"
+    ],
+    "tmScope": "source.lark",
+    "aceMode": "text",
+    "codemirrorMode": "ebnf",
+    "codemirrorMimeType": "text/x-ebnf",
+    "languageId": 758480799,
+    "name": "Lark",
+    "aliases": [
+      "lark"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#999999",
     "extensions": [
