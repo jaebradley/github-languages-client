@@ -4730,7 +4730,8 @@
   {
     "type": "programming",
     "extensions": [
-      ".lvproj"
+      ".lvproj",
+      ".lvlib"
     ],
     "tmScope": "text.xml",
     "aceMode": "xml",
@@ -5913,6 +5914,24 @@
     "name": "NSIS",
     "aliases": [
       "nsis"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#111522",
+    "extensions": [
+      ".nss"
+    ],
+    "tmScope": "source.c.nwscript",
+    "aceMode": "c_cpp",
+    "codemirrorMode": "clike",
+    "codemirrorMimeType": "text/x-csrc",
+    "languageId": 731233819,
+    "name": "NWScript",
+    "aliases": [
+      "nwscript"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -9456,6 +9475,7 @@
       "README.1ST",
       "README.me",
       "README.mysql",
+      "README.nss",
       "click.me",
       "delete.me",
       "go.mod",
