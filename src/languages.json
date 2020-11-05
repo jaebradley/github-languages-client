@@ -4182,6 +4182,7 @@
       ".jscsrc",
       ".jshintrc",
       ".jslintrc",
+      "devcontainer.json",
       "jsconfig.json",
       "language-configuration.json",
       "tsconfig.json",
@@ -7846,6 +7847,27 @@
     "searchable": "true"
   },
   {
+    "type": "programming",
+    "color": "#ed5051",
+    "aceMode": "rust",
+    "codemirrorMode": "rust",
+    "codemirrorMimeType": "text/x-rustsrc",
+    "extensions": [
+      ".res"
+    ],
+    "interpreters": [
+      "ocaml"
+    ],
+    "tmScope": "source.rescript",
+    "languageId": 501875647,
+    "name": "ReScript",
+    "aliases": [
+      "rescript"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "data",
     "group": "INI",
     "aliases": [
@@ -10338,6 +10360,7 @@
       ".psc1",
       ".pt",
       ".rdf",
+      ".res",
       ".resx",
       ".rss",
       ".sch",
