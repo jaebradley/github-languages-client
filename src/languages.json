@@ -3531,10 +3531,12 @@
     "group": "HTML",
     "aliases": [
       "eex",
+      "leex",
       "html+eex"
     ],
     "extensions": [
-      ".eex"
+      ".eex",
+      ".html.leex"
     ],
     "aceMode": "text",
     "codemirrorMode": "htmlmixed",
