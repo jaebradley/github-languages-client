@@ -4182,6 +4182,7 @@
       ".jscsrc",
       ".jshintrc",
       ".jslintrc",
+      "devcontainer.json",
       "jsconfig.json",
       "language-configuration.json",
       "tsconfig.json",
@@ -7050,7 +7051,7 @@
   {
     "type": "prose",
     "aceMode": "perl",
-    "tmScope": "source.perl6fe",
+    "tmScope": "source.raku",
     "wrap": true,
     "extensions": [
       ".pod",
@@ -7804,7 +7805,7 @@
       "perl-6",
       "raku"
     ],
-    "tmScope": "source.perl6fe",
+    "tmScope": "source.raku",
     "aceMode": "perl",
     "codemirrorMode": "perl",
     "codemirrorMimeType": "text/x-perl",
@@ -7842,6 +7843,27 @@
     "aceMode": "text",
     "languageId": 318,
     "name": "Raw token data",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#ed5051",
+    "aceMode": "rust",
+    "codemirrorMode": "rust",
+    "codemirrorMimeType": "text/x-rustsrc",
+    "extensions": [
+      ".res"
+    ],
+    "interpreters": [
+      "ocaml"
+    ],
+    "tmScope": "source.rescript",
+    "languageId": 501875647,
+    "name": "ReScript",
+    "aliases": [
+      "rescript"
+    ],
     "wrap": "false",
     "searchable": "true"
   },
@@ -10338,6 +10360,7 @@
       ".psc1",
       ".pt",
       ".rdf",
+      ".res",
       ".resx",
       ".rss",
       ".sch",
