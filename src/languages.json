@@ -3053,6 +3053,7 @@
     ],
     "extensions": [
       ".gbr",
+      ".cmp",
       ".gbl",
       ".gbo",
       ".gbp",
@@ -3065,6 +3066,7 @@
       ".gto",
       ".gtp",
       ".gts",
+      ".ncl",
       ".sol"
     ],
     "interpreters": [
