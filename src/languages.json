@@ -3966,6 +3966,7 @@
       ".coffeelintignore",
       ".cvsignore",
       ".dockerignore",
+      ".eleventyignore",
       ".eslintignore",
       ".gitignore",
       ".nodemonignore",
@@ -4931,6 +4932,7 @@
   },
   {
     "type": "markup",
+    "color": "#67b8de",
     "extensions": [
       ".liquid"
     ],
@@ -7797,6 +7799,8 @@
       ".pl6",
       ".pm",
       ".pm6",
+      ".raku",
+      ".rakumod",
       ".t"
     ],
     "interpreters": [
