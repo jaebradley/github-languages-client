@@ -1424,7 +1424,7 @@
   },
   {
     "type": "markup",
-    "group": "HTML",
+    "color": "#0d948f",
     "aceMode": "soy_template",
     "codemirrorMode": "soy",
     "codemirrorMimeType": "text/x-soy",
@@ -2189,7 +2189,6 @@
   {
     "type": "markup",
     "color": "#a91e50",
-    "group": "HTML",
     "extensions": [
       ".ejs",
       ".ect",
@@ -5423,6 +5422,7 @@
       ".mkdn",
       ".mkdown",
       ".ronn",
+      ".scd",
       ".workbook"
     ],
     "filenames": [
@@ -5816,7 +5816,7 @@
   },
   {
     "type": "markup",
-    "group": "HTML",
+    "color": "#724b3b",
     "extensions": [
       ".mustache"
     ],
@@ -8624,8 +8624,8 @@
     "searchable": "true"
   },
   {
-    "group": "HTML",
     "type": "markup",
+    "color": "#bd181a",
     "extensions": [
       ".scaml"
     ],
@@ -10395,6 +10395,7 @@
       ".rdf",
       ".res",
       ".resx",
+      ".rs",
       ".rss",
       ".sch",
       ".scxml",
