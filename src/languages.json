@@ -3524,16 +3524,13 @@
     "extensions": [
       ".jinja",
       ".j2",
-      ".jinja2",
-      ".njk"
+      ".jinja2"
     ],
     "aliases": [
       "django",
       "html+django/jinja",
       "html+jinja",
       "htmldjango",
-      "njk",
-      "nunjucks",
       "html+django"
     ],
     "aceMode": "django",
@@ -6235,6 +6232,23 @@
     "searchable": "true"
   },
   {
+    "type": "markup",
+    "color": "#3d8137",
+    "extensions": [
+      ".njk"
+    ],
+    "aliases": [
+      "njk",
+      "nunjucks"
+    ],
+    "tmScope": "text.html.nunjucks",
+    "aceMode": "nunjucks",
+    "languageId": 461856962,
+    "name": "Nunjucks",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "aceMode": "ocaml",
     "codemirrorMode": "mllike",
@@ -7952,6 +7966,24 @@
     "name": "Rebol",
     "aliases": [
       "rebol"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "filenames": [
+      "language-subtag-registry.txt"
+    ],
+    "tmScope": "source.record-jar",
+    "codemirrorMode": "properties",
+    "codemirrorMimeType": "text/x-properties",
+    "aceMode": "text",
+    "color": "#0673ba",
+    "languageId": 865765202,
+    "name": "Record Jar",
+    "aliases": [
+      "record jar"
     ],
     "wrap": "false",
     "searchable": "true"
