@@ -717,6 +717,24 @@
   },
   {
     "type": "programming",
+    "color": "#a52f4e",
+    "extensions": [
+      ".bf"
+    ],
+    "tmScope": "source.cs",
+    "aceMode": "csharp",
+    "codemirrorMode": "clike",
+    "codemirrorMimeType": "text/x-csharp",
+    "languageId": 545626333,
+    "name": "Beef",
+    "aliases": [
+      "beef"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "extensions": [
       ".befunge"
     ],
@@ -3524,16 +3542,13 @@
     "extensions": [
       ".jinja",
       ".j2",
-      ".jinja2",
-      ".njk"
+      ".jinja2"
     ],
     "aliases": [
       "django",
       "html+django/jinja",
       "html+jinja",
       "htmldjango",
-      "njk",
-      "nunjucks",
       "html+django"
     ],
     "aceMode": "django",
@@ -4003,6 +4018,23 @@
     "codemirrorMimeType": "text/x-sh",
     "languageId": 74444240,
     "name": "Ignore List",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#99AAFF",
+    "aliases": [
+      "ijm",
+      "imagej macro"
+    ],
+    "extensions": [
+      ".ijm"
+    ],
+    "aceMode": "text",
+    "tmScope": "none",
+    "languageId": 575143428,
+    "name": "ImageJ Macro",
     "wrap": "false",
     "searchable": "true"
   },
@@ -6235,6 +6267,23 @@
     "searchable": "true"
   },
   {
+    "type": "markup",
+    "color": "#3d8137",
+    "extensions": [
+      ".njk"
+    ],
+    "aliases": [
+      "njk",
+      "nunjucks"
+    ],
+    "tmScope": "text.html.nunjucks",
+    "aceMode": "nunjucks",
+    "languageId": 461856962,
+    "name": "Nunjucks",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "aceMode": "ocaml",
     "codemirrorMode": "mllike",
@@ -7952,6 +8001,24 @@
     "name": "Rebol",
     "aliases": [
       "rebol"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "filenames": [
+      "language-subtag-registry.txt"
+    ],
+    "tmScope": "source.record-jar",
+    "codemirrorMode": "properties",
+    "codemirrorMimeType": "text/x-properties",
+    "aceMode": "text",
+    "color": "#0673ba",
+    "languageId": 865765202,
+    "name": "Record Jar",
+    "aliases": [
+      "record jar"
     ],
     "wrap": "false",
     "searchable": "true"
