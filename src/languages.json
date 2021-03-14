@@ -11190,6 +11190,23 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "aliases": [
+      "robots",
+      "robots txt",
+      "robotstxt"
+    ],
+    "filenames": [
+      "robots.txt"
+    ],
+    "aceMode": "text",
+    "tmScope": "text.robots-txt",
+    "languageId": 674736065,
+    "name": "robotsTxt",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
     "type": "programming",
     "color": "#64b970",
     "extensions": [
