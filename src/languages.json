@@ -3028,6 +3028,22 @@
     "searchable": "true"
   },
   {
+    "type": "data",
+    "color": "#701516",
+    "searchable": "true",
+    "tmScope": "source.gemfile-lock",
+    "aceMode": "text",
+    "filenames": [
+      "Gemfile.lock"
+    ],
+    "languageId": 907065713,
+    "name": "GemfileLock",
+    "aliases": [
+      "gemfilelock"
+    ],
+    "wrap": "false"
+  },
+  {
     "type": "programming",
     "aceMode": "text",
     "extensions": [
@@ -8090,6 +8106,22 @@
   },
   {
     "type": "data",
+    "aliases": [
+      "redirects",
+      "redirect rules"
+    ],
+    "filenames": [
+      "_redirects"
+    ],
+    "tmScope": "source.redirects",
+    "aceMode": "text",
+    "languageId": 1020148948,
+    "name": "Redirect Rules",
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
     "extensions": [
       ".regexp",
       ".regex"
@@ -8342,6 +8374,7 @@
       ".mspec",
       ".pluginspec",
       ".podspec",
+      ".prawn",
       ".rabl",
       ".rake",
       ".rbi",
@@ -8374,7 +8407,6 @@
       "Deliverfile",
       "Fastfile",
       "Gemfile",
-      "Gemfile.lock",
       "Guardfile",
       "Jarfile",
       "Mavenfile",
@@ -11187,6 +11219,23 @@
     "codemirrorMimeType": "text/x-rst",
     "languageId": 419,
     "name": "reStructuredText",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "aliases": [
+      "robots",
+      "robots txt",
+      "robotstxt"
+    ],
+    "filenames": [
+      "robots.txt"
+    ],
+    "aceMode": "text",
+    "tmScope": "text.robots-txt",
+    "languageId": 674736065,
+    "name": "robotsTxt",
+    "wrap": "false",
     "searchable": "true"
   },
   {
