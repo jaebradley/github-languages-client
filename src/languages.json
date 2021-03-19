@@ -1146,6 +1146,21 @@
   },
   {
     "type": "data",
+    "filenames": [
+      "CODEOWNERS"
+    ],
+    "tmScope": "text.codeowners",
+    "aceMode": "gitignore",
+    "languageId": 321684729,
+    "name": "CODEOWNERS",
+    "aliases": [
+      "codeowners"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
     "extensions": [
       ".dae"
     ],
@@ -3559,36 +3574,11 @@
       ".htm",
       ".html.hl",
       ".inc",
-      ".st",
       ".xht",
       ".xhtml"
     ],
     "languageId": 146,
     "name": "HTML",
-    "wrap": "false",
-    "searchable": "true"
-  },
-  {
-    "type": "markup",
-    "tmScope": "text.html.django",
-    "group": "HTML",
-    "extensions": [
-      ".jinja",
-      ".j2",
-      ".jinja2"
-    ],
-    "aliases": [
-      "django",
-      "html+django/jinja",
-      "html+jinja",
-      "htmldjango",
-      "html+django"
-    ],
-    "aceMode": "django",
-    "codemirrorMode": "django",
-    "codemirrorMimeType": "text/x-django",
-    "languageId": 147,
-    "name": "HTML+Django",
     "wrap": "false",
     "searchable": "true"
   },
@@ -4490,6 +4480,30 @@
     "aliases": [
       "javascript+erb"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "markup",
+    "color": "#a52a22",
+    "aliases": [
+      "django",
+      "html+django",
+      "html+jinja",
+      "htmldjango",
+      "jinja"
+    ],
+    "extensions": [
+      ".jinja",
+      ".j2",
+      ".jinja2"
+    ],
+    "tmScope": "text.html.django",
+    "aceMode": "django",
+    "codemirrorMode": "django",
+    "codemirrorMimeType": "text/x-django",
+    "languageId": 147,
+    "name": "Jinja",
     "wrap": "false",
     "searchable": "true"
   },
@@ -8982,6 +8996,22 @@
   },
   {
     "type": "programming",
+    "color": "#64E6AD",
+    "tmScope": "source.singularity",
+    "filenames": [
+      "Singularity"
+    ],
+    "aceMode": "text",
+    "languageId": 987024632,
+    "name": "Singularity",
+    "aliases": [
+      "singularity"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#007eff",
     "extensions": [
       ".sl"
@@ -9248,6 +9278,24 @@
     "name": "Stata",
     "aliases": [
       "stata"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "markup",
+    "color": "#3fb34f",
+    "extensions": [
+      ".st"
+    ],
+    "tmScope": "source.string-template",
+    "aceMode": "html",
+    "codemirrorMode": "htmlmixed",
+    "codemirrorMimeType": "text/html",
+    "languageId": 89855901,
+    "name": "StringTemplate",
+    "aliases": [
+      "stringtemplate"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -10721,6 +10769,24 @@
     "name": "Xojo",
     "aliases": [
       "xojo"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#285EEF",
+    "extensions": [
+      ".xsh"
+    ],
+    "tmScope": "source.python",
+    "aceMode": "text",
+    "codemirrorMode": "python",
+    "codemirrorMimeType": "text/x-python",
+    "languageId": 614078284,
+    "name": "Xonsh",
+    "aliases": [
+      "xonsh"
     ],
     "wrap": "false",
     "searchable": "true"
