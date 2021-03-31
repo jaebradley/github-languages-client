@@ -5576,6 +5576,10 @@
     ],
     "aliases": [
       "mma",
+      "wolfram",
+      "wolfram language",
+      "wolfram lang",
+      "wl",
       "mathematica"
     ],
     "tmScope": "source.mathematica",
