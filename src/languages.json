@@ -801,6 +801,22 @@
   },
   {
     "type": "programming",
+    "color": "#519aba",
+    "extensions": [
+      ".bicep"
+    ],
+    "tmScope": "source.bicep",
+    "aceMode": "text",
+    "languageId": 321200902,
+    "name": "Bicep",
+    "aliases": [
+      "bicep"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#6A463F",
     "group": "Yacc",
     "tmScope": "source.yacc",
@@ -2797,6 +2813,26 @@
     "aliases": [
       "fortran free form"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "color": "#867db1",
+    "extensions": [
+      ".bi",
+      ".bas"
+    ],
+    "tmScope": "source.vbnet",
+    "aliases": [
+      "fb",
+      "freebasic"
+    ],
+    "aceMode": "text",
+    "codemirrorMode": "vb",
+    "codemirrorMimeType": "text/x-vb",
+    "languageId": 472896659,
+    "name": "FreeBasic",
     "wrap": "false",
     "searchable": "true"
   },
