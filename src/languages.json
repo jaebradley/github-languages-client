@@ -100,6 +100,25 @@
   },
   {
     "type": "programming",
+    "color": "#34EB6B",
+    "tmScope": "source.aidl",
+    "extensions": [
+      ".aidl"
+    ],
+    "aceMode": "text",
+    "interpreters": [
+      "aidl"
+    ],
+    "languageId": 451700185,
+    "name": "AIDL",
+    "aliases": [
+      "aidl"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
     "color": "#3AA2B5",
     "extensions": [
       ".al"
@@ -1262,6 +1281,22 @@
   {
     "type": "programming",
     "extensions": [
+      ".cue"
+    ],
+    "tmScope": "source.cue",
+    "aceMode": "text",
+    "color": "#5886E1",
+    "languageId": 356063509,
+    "name": "CUE",
+    "aliases": [
+      "cue"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "programming",
+    "extensions": [
       ".w"
     ],
     "tmScope": "none",
@@ -1867,6 +1902,21 @@
     "name": "Cuda",
     "aliases": [
       "cuda"
+    ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "extensions": [
+      ".cue"
+    ],
+    "tmScope": "source.cuesheet",
+    "aceMode": "text",
+    "languageId": 942714150,
+    "name": "Cue Sheet",
+    "aliases": [
+      "cue sheet"
     ],
     "wrap": "false",
     "searchable": "true"
@@ -5683,22 +5733,6 @@
     "languageId": 227,
     "name": "Max",
     "wrap": "false",
-    "searchable": "true"
-  },
-  {
-    "type": "prose",
-    "wrap": true,
-    "extensions": [
-      ".mediawiki",
-      ".wiki"
-    ],
-    "tmScope": "text.html.mediawiki",
-    "aceMode": "text",
-    "languageId": 228,
-    "name": "MediaWiki",
-    "aliases": [
-      "mediawiki"
-    ],
     "searchable": "true"
   },
   {
@@ -10417,6 +10451,25 @@
     "languageId": 668457123,
     "name": "Wget Config",
     "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "prose",
+    "wrap": true,
+    "aliases": [
+      "mediawiki",
+      "wiki",
+      "wikitext"
+    ],
+    "extensions": [
+      ".mediawiki",
+      ".wiki",
+      ".wikitext"
+    ],
+    "tmScope": "text.html.mediawiki",
+    "aceMode": "text",
+    "languageId": 228,
+    "name": "Wikitext",
     "searchable": "true"
   },
   {
