@@ -4346,6 +4346,7 @@
     "filenames": [
       ".arcconfig",
       ".htmlhintrc",
+      ".imgbotconfig",
       ".tern-config",
       ".tern-project",
       ".watchmanconfig",
@@ -4394,6 +4395,7 @@
       ".jscsrc",
       ".jshintrc",
       ".jslintrc",
+      "api-extractor.json",
       "devcontainer.json",
       "jsconfig.json",
       "language-configuration.json",
@@ -5096,6 +5098,7 @@
   },
   {
     "type": "programming",
+    "color": "#9ccc7c",
     "extensions": [
       ".ly",
       ".ily"
@@ -10264,6 +10267,24 @@
     "aliases": [
       "vala"
     ],
+    "wrap": "false",
+    "searchable": "true"
+  },
+  {
+    "type": "data",
+    "color": "#f26025",
+    "aliases": [
+      "keyvalues",
+      "vdf",
+      "valve data format"
+    ],
+    "extensions": [
+      ".vdf"
+    ],
+    "aceMode": "text",
+    "tmScope": "source.keyvalues",
+    "languageId": 544060961,
+    "name": "Valve Data Format",
     "wrap": "false",
     "searchable": "true"
   },
